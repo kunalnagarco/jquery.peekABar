@@ -1,10 +1,1 @@
-{
-	"version": 3,
-	"file": "jquery.peekabar.min.css",
-	"sources": [
-		"../../src/scss/peekabar.scss"
-	],
-	"sourcesContent": [],
-	"mappings": "AAAA,WAAW,CAAC;EACX,MAAM,EAAE,CAAE;EACV,gBAAgB,EAAE,OAAG;EACrB,OAAO,EAAE,GAAI;EACb,QAAQ,EAAE,QAAS;EACnB,KAAK,EAAE,IAAK;EACZ,IAAI,EAAE,CAAE;EACR,KAAK,EAAE,CAAE;EACT,UAAU,EAAE,MAAO,GARP",
-	"names": []
-}
+{"version":3,"sources":["dist/css/jquery.peekabar.css"],"names":[],"mappings":"AAAA,YACE,OAAQ,EACR,SAAU,SACV,MAAO,KACP,KAAM,EACN,MAAO,EACP,WAAY"}

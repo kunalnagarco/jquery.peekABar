@@ -1,9 +1,11 @@
-(function() {
+(function () {
 
 	'use strict';
 
-	module.exports = function(grunt) {
+	module.exports = function (grunt) {
+
 		require('load-grunt-tasks')(grunt);
+
 		grunt.initConfig({
 			copy: {
 				main: {
@@ -12,7 +14,7 @@
 							expand: true,
 							src: 'src/js/peekabar.js',
 							dest: 'dist/js/',
-							rename: function(dest, src) {
+							rename: function (dest, src) {
 								return dest + 'jquery.peekabar.js';
 							}
 						}
@@ -21,7 +23,8 @@
 			},
 			uglify: {
 				options: {
-					mangle: false
+					mangle: false,
+					sourceMap: true
 				},
 				my_target: {
 					files: {
@@ -31,12 +34,21 @@
 			},
 			sass: {
 				options: {
-					sourceMap: true,
-					style: 'compact'
+					style: 'compressed'
 				},
 				dist: {
 					files: {
-						'dist/css/jquery.peekabar.min.css': 'src/scss/peekabar.scss'
+						'dist/css/jquery.peekabar.css': 'src/scss/peekabar.scss'
+					}
+				}
+			},
+			cssmin: {
+				options: {
+					sourceMap: true
+				},
+				target: {
+					files: {
+						'dist/css/jquery.peekabar.min.css': ['dist/css/jquery.peekabar.css']
 					}
 				}
 			},
@@ -50,7 +62,7 @@
 				},
 				css: {
 					files: 'src/scss/peekabar.scss',
-					tasks: ['sass']
+					tasks: ['sass', 'cssmin']
 				}
 			}
 		});

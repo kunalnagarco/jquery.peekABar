@@ -1,18 +1,18 @@
 {
-  "name": "peek-a-bar",
-  "version": "0.0.0",
-  "authors": [
-    "Kunal Nagar <knlnagar@gmail.com>"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "jquery": "~2.1.4"
-  }
+	"name": "jquery-peek-a-bar",
+	"version": "1.0.0",
+	"authors": [
+		"Kunal Nagar <knlnagar@gmail.com>"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"jquery": "~2.1.4"
+	}
 }
