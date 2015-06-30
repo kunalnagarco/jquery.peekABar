@@ -1,5 +1,12 @@
+/**
+ * @license
+ * jquery.peekABar 1.0.0 <http://kunalnagar.github.io/jquery.peekABar>
+ * Copyright 2015 Kunal Nagar
+ * Available under MIT license <http://kunalnagar.github.io/jquery.peekABar/license>
+ */
 ;(function($) {
 
+	/** Enable strict mode. */
 	'use strict';
 
 	$.peekABar = function(options) {
@@ -7,24 +14,24 @@
 		var that = this,
 			rand = parseInt(Math.random() * 100000000, 0);
 
+		/** Instance */
 		this.bar = {};
+
+		/** Settings */
 		this.settings = {};
 
+		/** Defaults */
 		var defaults = {
 			html: 'Your Message Here',
 			delay: 3000,
+			autohide: false,
+			padding: '1em',
 			animation: {
 				type: 'slide',
 				duration: 'slow'
 			},
-			cssClass: '',
+			cssClass: null,
 			opacity: '1',
-			close: {
-				show: 'false',
-				icon: '&times;',
-				cssClass: '',
-				padding: ''
-			},
 			position: 'top',
 
 			onShow: function() {},
@@ -33,14 +40,15 @@
 			closeOnClick: false
 		};
 
+		/** Initialise the plugin */
 		var init = function() {
 			that.settings = $.extend({}, defaults, options);
 			_create();
 			_applyCustomSettings();
 		};
 
+		/** Show the Bar */
 		this.show = function(args) {
-			console.info('show called');
 			if(args.html) {
 				this.bar.html(args.html);
 			}
@@ -52,11 +60,16 @@
 					this.bar.fadeIn(that.settings.animation.duration);
 					break;
 			}
+			if(this.settings.autohide) {
+				setTimeout(function () {
+					that.hide();
+				}, this.settings.autohide);
+			}
 			this.settings.onShow.call(this, args);
 		};
 
+		/** Hide the Bar */
 		this.hide = function() {
-			console.info('hide called');
 			switch (this.settings.animation.type) {
 				case 'slide':
 					this.bar.slideUp(that.settings.animation.duration);
@@ -68,27 +81,71 @@
 			this.settings.onHide.call(this);
 		};
 
+		/** Create the Bar */
 		var _create = function() {
-			console.info('bar created with id: __peek_a_bar_' + rand);
-			console.info('bar created with class: .peek-a-bar');
 			that.bar = $('<div></div>').addClass('peek-a-bar').attr('id', '__peek_a_bar_' + rand);
-			console.info('printing bar element');
-			console.log(that.bar);
 			$('html').append(that.bar);
 			that.bar.hide();
 		};
 
+		/** Apply Custom Bar Settings */
 		var _applyCustomSettings = function() {
+			_applyHTML();
+			_applyAutohide();
+			_applyPadding();
+			_applyOpacity();
+			_applyCSSClass();
+			_applyPosition();
+			_applyCloseOnClick();
+		};
+
+		/** Set Custom Bar HTML */
+		var _applyHTML = function() {
 			that.bar.html(that.settings.html);
+		};
+
+		/** Autohide the Bar */
+		var _applyAutohide = function() {
+			if(that.settings.autohide) {
+				setTimeout(function () {
+					that.hide();
+				}, that.settings.delay);
+			}
+		};
+
+		/** Apply Padding */
+		var _applyPadding = function() {
+			that.bar.css('padding', that.settings.padding);
+		};
+
+		/** Apply Custom CSS Class */
+		var _applyCSSClass = function() {
+			if(that.settings.cssClass !== null) {
+				that.bar.addClass(that.settings.cssClass);
+			}
+		};
+
+		/** Apply Opacity */
+		var _applyOpacity = function() {
+			that.bar.css('opacity', that.settings.opacity);
+		};
+
+		/** Apply Position where the Bar should be shown */
+		var _applyPosition = function() {
 			switch(that.settings.position) {
 				case 'top':
 					that.bar.css('top', 0);
 					break;
 				case 'bottom':
 					that.bar.css('bottom', 0);
+					break;
+				default:
+					that.bar.css('top', 0);
 			}
-			that.bar.addClass(that.settings.cssClass);
-			that.bar.css('opacity', that.settings.opacity);
+		};
+
+		/** Close the bar on click */
+		var _applyCloseOnClick = function() {
 			if(that.settings.closeOnClick) {
 				that.bar.click(function() {
 					that.hide();

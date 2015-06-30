@@ -23,7 +23,7 @@
 			},
 			uglify: {
 				options: {
-					mangle: false,
+					mangle: true,
 					sourceMap: true
 				},
 				my_target: {
@@ -58,7 +58,7 @@
 				},
 				scripts: {
 					files: 'src/js/peekabar.js',
-					tasks: ['uglify']
+					tasks: ['copy', 'uglify']
 				},
 				css: {
 					files: 'src/scss/peekabar.scss',

@@ -10,9 +10,14 @@
 		"node_modules",
 		"bower_components",
 		"test",
-		"tests"
+		"tests",
+		".jshintrc"
 	],
 	"dependencies": {
 		"jquery": "~2.1.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/kunalnagar/jquery.peekABar.git"
 	}
 }
