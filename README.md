@@ -2,6 +2,11 @@
 
 A jQuery plugin for a notification bar with a lot of cusotmization options.
 
+**Note:**
+
+_The plugin is in alpha testing. Please do not use it on your production environment._  
+**_Release Date: July 10, 2015_**
+
 ## Installation
 
 ```
