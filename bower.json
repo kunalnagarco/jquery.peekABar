@@ -16,6 +16,11 @@
 	"dependencies": {
 		"jquery": "~2.1.4"
 	},
+	"keywords": [
+		"jquery",
+		"jquery notification bar",
+		"notification"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/kunalnagar/jquery.peekABar.git"
