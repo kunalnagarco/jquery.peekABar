@@ -31,6 +31,10 @@ Default: `false`
 Type: `String`  
 Default: `1em`
 
+### backgroundColor
+Type: `String`  
+Default: `rgb(195, 195, 195)`
+
 ### animation
 Type: `Object`  
 Default: `{ type: 'slide/fade', duration: 'slow/time(in ms)' }`  
