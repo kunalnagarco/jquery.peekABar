@@ -66,7 +66,7 @@
 			if(this.settings.autohide) {
 				setTimeout(function () {
 					that.hide();
-				}, this.settings.autohide);
+				}, this.settings.delay);
 			}
 			this.settings.onShow.call(this, args);
 		};
