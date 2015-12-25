@@ -6,7 +6,7 @@ engines:
 
 ratings:
  paths:
- - "dist/js/**/*.js",
+ - "dist/js/**/*.js"
  - "dist/css/**/*.css"
 
 exclude_paths:
