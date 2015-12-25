@@ -6,10 +6,10 @@ engines:
 
 ratings:
  paths:
-  - "dist/js/**/*.js",
-  - "dist/css/**/*.css"
+ - "dist/js/**/*.js",
+ - "dist/css/**/*.css"
 
 exclude_paths:
- - node_modules/**/*
- - bower_components/**/*
- - src/**/*
+- node_modules/**/*
+- bower_components/**/*
+- src/**/*
