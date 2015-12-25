@@ -165,6 +165,6 @@
 		init();
 
 		return this;
-	}
+	};
 
 })(jQuery);
