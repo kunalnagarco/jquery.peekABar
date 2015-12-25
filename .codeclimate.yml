@@ -1,16 +1,15 @@
 engines:
-	eslint:
-		enabled: true
-	csslint:
-		enabled: true
+ eslint:
+  enabled: true
+ csslint:
+  enabled: true
 
 ratings:
-	paths:
-	- "src/js/**.js"
-	- "dist/js/**.js"
-	- "dist/css/**.css"
+ paths:
+  - "dist/js/**/*.js",
+  - "dist/css/**/*.css"
 
 exclude_paths:
-- node_modules/**/*
-- bower_components/**/*
-- dist/**/*
+ - node_modules/**/*
+ - bower_components/**/*
+ - src/**/*
