@@ -1,8 +1,9 @@
 # jquery.peekABar
 
-[![npm version](https://badge.fury.io/js/jquery-peek-a-bar.svg)](https://badge.fury.io/js/jquery-peek-a-bar)
-[![Bower version](https://badge.fury.io/bo/jquery.peekABar.svg)](https://badge.fury.io/bo/jquery.peekABar)
-![npm](https://img.shields.io/npm/dt/jquery-peek-a-bar.svg)
+[![npm version](https://img.shields.io/npm/v/jquery-peek-a-bar.svg)](https://www.npmjs.com/package/jquery-peek-a-bar) 
+[![bower version](https://img.shields.io/bower/v/jquery.peekABar.svg)](https://github.com/kunalnagar/jquery.peekABar/releases/latest) 
+[![license](https://img.shields.io/github/license/kunalnagar/jquery.peekABar.svg)](https://github.com/kunalnagar/jquery.peekABar/blob/master/LICENSE) 
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/kunalnagar/jquery.peekABar/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) 
 
 A jQuery plugin for a notification bar with a lot of customization options.
 
