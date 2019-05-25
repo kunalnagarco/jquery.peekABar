@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/jquery-peek-a-bar.svg)](https://badge.fury.io/js/jquery-peek-a-bar)
 [![Bower version](https://badge.fury.io/bo/jquery.peekABar.svg)](https://badge.fury.io/bo/jquery.peekABar)
+![npm](https://img.shields.io/npm/dt/jquery-peek-a-bar.svg)
 
 A jQuery plugin for a notification bar with a lot of customization options.
 
