@@ -2,11 +2,23 @@
 
 	'use strict';
 
+	var sass = require('node-sass');
+
 	module.exports = function (grunt) {
 
 		require('load-grunt-tasks')(grunt);
 
 		grunt.initConfig({
+            babel: {
+                options: {
+                    presets: ['@babel/preset-env']
+                },
+                dist: {
+                    files: {
+                        'dist/js/jquery.peekabar.js': 'dist/js/jquery.peekabar.js'
+                    }
+                }
+            },
 			copy: {
 				main: {
 					files: [
@@ -14,7 +26,7 @@
 							expand: true,
 							src: 'src/js/peekabar.js',
 							dest: 'dist/js/',
-							rename: function (dest, src) {
+							rename: function (dest) {
 								return dest + 'jquery.peekabar.js';
 							}
 						}
@@ -28,12 +40,13 @@
 				},
 				my_target: {
 					files: {
-						'dist/js/jquery.peekabar.min.js': ['src/js/peekabar.js']
+						'dist/js/jquery.peekabar.min.js': ['dist/js/jquery.peekabar.js']
 					}
 				}
 			},
 			sass: {
 				options: {
+                    implementation: sass,
 					style: 'compressed'
 				},
 				dist: {
@@ -66,5 +79,7 @@
 				}
 			}
 		});
+
+		grunt.registerTask('build', ['copy', 'babel', 'uglify', 'sass', 'cssmin']);
 	};
 })();

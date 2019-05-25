@@ -1,170 +1,169 @@
+"use strict";
+
 /**
  * @license
- * jquery.peekABar 1.0.1 <http://kunalnagar.github.io/jquery.peekABar>
- * Copyright 2015 Kunal Nagar
+ * jquery.peekABar 2.0.0 <http://kunalnagar.github.io/jquery.peekABar>
+ * Copyright 2019 Kunal Nagar
  * Available under MIT license
  */
-;(function($) {
+(function ($) {
+  'use strict';
 
-	/** Enable strict mode. */
-	'use strict';
+  $.peekABar = function (options) {
+    var _this = this;
 
-	$.peekABar = function(options) {
+    var that = this,
+        rand = parseInt(Math.random() * 100000000, 0);
+    this.bar = {};
+    this.settings = {};
+    var defaults = {
+      html: 'Your Message Here',
+      delay: 3000,
+      autohide: false,
+      padding: '1em',
+      backgroundColor: 'rgb(195, 195, 195)',
+      animation: {
+        type: 'slide',
+        duration: 'slow'
+      },
+      cssClass: null,
+      opacity: '1',
+      position: 'top',
+      closeOnClick: false,
+      onShow: function onShow() {},
+      onHide: function onHide() {}
+    };
 
-		var that = this,
-			rand = parseInt(Math.random() * 100000000, 0);
+    var init = function init() {
+      that.settings = $.extend({}, defaults, options);
 
-		/** Instance */
-		this.bar = {};
+      _create();
 
-		/** Settings */
-		this.settings = {};
+      _applyCustomSettings();
+    };
 
-		/** Defaults */
-		var defaults = {
-			html: 'Your Message Here',
-			delay: 3000,
-			autohide: false,
-			padding: '1em',
-			backgroundColor: 'rgb(195, 195, 195)',
-			animation: {
-				type: 'slide',
-				duration: 'slow'
-			},
-			cssClass: null,
-			opacity: '1',
-			position: 'top',
+    this.show = function (args) {
+      if (args !== undefined) {
+        if (args.html) {
+          _this.bar.html(args.html);
+        }
+      }
 
-			onShow: function() {},
-			onHide: function() {},
+      switch (_this.settings.animation.type) {
+        case 'slide':
+          _this.bar.slideDown(that.settings.animation.duration);
 
-			closeOnClick: false
-		};
+          break;
 
-		/** Initialise the plugin */
-		var init = function() {
-			that.settings = $.extend({}, defaults, options);
-			_create();
-			_applyCustomSettings();
-		};
+        case 'fade':
+          _this.bar.fadeIn(that.settings.animation.duration);
 
-		/** Show the Bar */
-		this.show = function(args) {
-			if(args !== undefined) {
-				if(args.html) {
-					this.bar.html(args.html);
-				}
-			}
-			switch (this.settings.animation.type) {
-				case 'slide':
-					this.bar.slideDown(that.settings.animation.duration);
-					break;
-				case 'fade':
-					this.bar.fadeIn(that.settings.animation.duration);
-					break;
-			}
-			if(this.settings.autohide) {
-				setTimeout(function () {
-					that.hide();
-				}, this.settings.delay);
-			}
-			this.settings.onShow.call(this, args);
-		};
+          break;
+      }
 
-		/** Hide the Bar */
-		this.hide = function() {
-			switch (this.settings.animation.type) {
-				case 'slide':
-					this.bar.slideUp(that.settings.animation.duration);
-					break;
-				case 'fade':
-					this.bar.fadeOut(that.settings.animation.duration);
-					break;
-			}
-			this.settings.onHide.call(this);
-		};
+      if (_this.settings.autohide) {
+        setTimeout(function () {
+          that.hide();
+        }, _this.settings.delay);
+      }
 
-		/** Create the Bar */
-		var _create = function() {
-			that.bar = $('<div></div>').addClass('peek-a-bar').attr('id', '__peek_a_bar_' + rand);
-			$('html').append(that.bar);
-			that.bar.hide();
-		};
+      _this.settings.onShow.call(_this, args);
+    };
 
-		/** Apply Custom Bar Settings */
-		var _applyCustomSettings = function() {
-			_applyHTML();
-			_applyAutohide();
-			_applyPadding();
-			_applyBackgroundColor();
-			_applyOpacity();
-			_applyCSSClass();
-			_applyPosition();
-			_applyCloseOnClick();
-		};
+    this.hide = function () {
+      switch (_this.settings.animation.type) {
+        case 'slide':
+          _this.bar.slideUp(that.settings.animation.duration);
 
-		/** Set Custom Bar HTML */
-		var _applyHTML = function() {
-			that.bar.html(that.settings.html);
-		};
+          break;
 
-		/** Autohide the Bar */
-		var _applyAutohide = function() {
-			if(that.settings.autohide) {
-				setTimeout(function () {
-					that.hide();
-				}, that.settings.delay);
-			}
-		};
+        case 'fade':
+          _this.bar.fadeOut(that.settings.animation.duration);
 
-		/** Apply Padding */
-		var _applyPadding = function() {
-			that.bar.css('padding', that.settings.padding);
-		};
+          break;
+      }
 
-		/** Apply Background Color */
-		var _applyBackgroundColor = function() {
-			that.bar.css('background-color', that.settings.backgroundColor);
-		};
+      _this.settings.onHide.call(_this);
+    };
 
-		/** Apply Custom CSS Class */
-		var _applyCSSClass = function() {
-			if(that.settings.cssClass !== null) {
-				that.bar.addClass(that.settings.cssClass);
-			}
-		};
+    var _create = function _create() {
+      that.bar = $('<div></div>').addClass('peek-a-bar').attr('id', '__peek_a_bar_' + rand);
+      $('html').append(that.bar);
+      that.bar.hide();
+    };
 
-		/** Apply Opacity */
-		var _applyOpacity = function() {
-			that.bar.css('opacity', that.settings.opacity);
-		};
+    var _applyCustomSettings = function _applyCustomSettings() {
+      _applyHTML();
 
-		/** Apply Position where the Bar should be shown */
-		var _applyPosition = function() {
-			switch(that.settings.position) {
-				case 'top':
-					that.bar.css('top', 0);
-					break;
-				case 'bottom':
-					that.bar.css('bottom', 0);
-					break;
-				default:
-					that.bar.css('top', 0);
-			}
-		};
+      _applyAutohide();
 
-		/** Close the bar on click */
-		var _applyCloseOnClick = function() {
-			if(that.settings.closeOnClick) {
-				that.bar.click(function() {
-					that.hide();
-				});
-			}
-		};
+      _applyPadding();
 
-		init();
+      _applyBackgroundColor();
 
-		return this;
-	};
+      _applyOpacity();
 
+      _applyCSSClass();
+
+      _applyPosition();
+
+      _applyCloseOnClick();
+    };
+
+    var _applyHTML = function _applyHTML() {
+      that.bar.html(that.settings.html);
+    };
+
+    var _applyAutohide = function _applyAutohide() {
+      if (that.settings.autohide) {
+        setTimeout(function () {
+          that.hide();
+        }, that.settings.delay);
+      }
+    };
+
+    var _applyPadding = function _applyPadding() {
+      that.bar.css('padding', that.settings.padding);
+    };
+
+    var _applyBackgroundColor = function _applyBackgroundColor() {
+      that.bar.css('background-color', that.settings.backgroundColor);
+    };
+
+    var _applyCSSClass = function _applyCSSClass() {
+      if (that.settings.cssClass !== null) {
+        that.bar.addClass(that.settings.cssClass);
+      }
+    };
+
+    var _applyOpacity = function _applyOpacity() {
+      that.bar.css('opacity', that.settings.opacity);
+    };
+
+    var _applyPosition = function _applyPosition() {
+      switch (that.settings.position) {
+        case 'top':
+          that.bar.css('top', 0);
+          break;
+
+        case 'bottom':
+          that.bar.css('bottom', 0);
+          break;
+
+        default:
+          that.bar.css('top', 0);
+      }
+    };
+
+    var _applyCloseOnClick = function _applyCloseOnClick() {
+      if (that.settings.closeOnClick) {
+        that.bar.click(function () {
+          that.hide();
+        });
+      }
+    };
+
+    init();
+    return this;
+  };
 })(jQuery);

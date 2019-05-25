@@ -1,10 +1,14 @@
-# jquery.peekABar v1.0.1
+# jquery.peekABar
+
+[![npm version](https://badge.fury.io/js/jquery-peek-a-bar.svg)](https://badge.fury.io/js/jquery-peek-a-bar)
+[![Bower version](https://badge.fury.io/bo/jquery.peekABar.svg)](https://badge.fury.io/bo/jquery.peekABar)
 
 A jQuery plugin for a notification bar with a lot of customization options.
 
 ## Installation
 
 ```
+npm install jquery.peekABar --save
 bower install jquery.peekABar --save
 ```
 
@@ -47,8 +51,8 @@ Type: `Object`
 Example:  
 ```
 animation: {
-	type: 'slide/fade',
-	duration: 'slow/3000(in ms)'
+    type: 'slide/fade',
+    duration: 'slow/3000(in ms)'
 }
 ```
 
@@ -98,25 +102,25 @@ Please check out the complete example below:
 ```
 // Create a bar
 var bar = $.peekABar({
-	html: 'Custom Message',
-	delay: 2000,
-	autohide: true,
-	padding: '2em',
-	backgroundColor: 'rgb(195, 195, 195)',
-	animation: {
-		type: 'fade',
-		duration: '2000'
-	},
-	opacity: '0.8',
-	cssClass: 'custom-class',
-	position: 'bottom',
-	closeOnClick: true
-	onShow: function() {
-		console.log('called after bar is shown');
-	},
-	onHide: function() {
-		console.log('called after bar is hidden');
-	}
+    html: 'Custom Message',
+    delay: 2000,
+    autohide: true,
+    padding: '2em',
+    backgroundColor: 'rgb(195, 195, 195)',
+    animation: {
+        type: 'fade',
+        duration: '2000'
+    },
+    opacity: '0.8',
+    cssClass: 'custom-class',
+    position: 'bottom',
+    closeOnClick: true
+    onShow: function() {
+        console.log('called after bar is shown');
+    },
+    onHide: function() {
+        console.log('called after bar is hidden');
+    }
 });
 
 // Show the bar
@@ -129,7 +133,7 @@ bar.hide();
 // This call will override the HTML
 // set in any previous definitions.
 bar.show({
-	html: 'Overrides all, puny human.'
+    html: 'Overrides all, puny human.'
 });
 ```
 

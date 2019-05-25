@@ -1,6 +1,7 @@
 {
 	"name": "jquery-peek-a-bar",
-	"version": "1.0.1",
+    "description": "A jQuery plugin for a notification bar with a lot of customization options.",
+	"version": "2.0.0",
 	"authors": [
 		"Kunal Nagar <knlnagar@gmail.com>"
 	],
@@ -11,7 +12,7 @@
 		"bower_components",
 		"test",
 		"tests",
-		".jshintrc"
+		".eslintrc"
 	],
 	"dependencies": {
 		"jquery": "~2.1.4"
