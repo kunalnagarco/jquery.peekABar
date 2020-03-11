@@ -29,7 +29,9 @@ jobs:
       - persist_to_workspace:
           root: ~/project
           paths:
-            - dist
+            - build
+            - package.json
+            - README.md
   deploy:
     docker:
       - image: circleci/node:12.16.1
@@ -37,14 +39,11 @@ jobs:
       - attach_workspace:
           at: ~/project
       - run:
-          name: Init npm
-          command: npm init -y
+          name: Setup npm token
+          command: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN_RW}" >> build/npm/.npmrc
       - run:
-          name: Install Netlify CLI
-          command: npm install --save-dev netlify-cli
-      - run:
-          name: Deploy to Netlify
-          command: ./node_modules/.bin/netlify deploy --dir=build --prod
+          name: Publish to npm
+          command: cp package.json build/npm && cp README.md build/npm && cd build/npm && npm publish
 
 workflows:
   build-deploy:

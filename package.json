@@ -11,13 +11,18 @@
 		"url": "git://github.com/kunalnagar/jquery.peekABar.git"
 	},
 	"license": "MIT",
-	"author": "",
-	"main": "src/js/peekabar.js",
+	"author": "Kunal Nagar <knlnagar@gmail.com>",
 	"scripts": {
 		"build": "./node_modules/.bin/grunt build",
-		"bundlesize": "bundlesize",
+    "bundlesize": "bundlesize",
+    "preinstall": "npm run requirements",
+    "requirements": "node check_node_version.js",
 		"lint": "eslint src/ --ext .ts,.tsx --max-warnings 0 src/"
-	},
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "engineStrict": true,
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
