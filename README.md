@@ -1,11 +1,13 @@
 # jquery.peekABar
 
-[![npm version](https://img.shields.io/npm/v/jquery-peek-a-bar.svg)](https://www.npmjs.com/package/jquery-peek-a-bar) 
-[![bower version](https://img.shields.io/bower/v/jquery.peekABar.svg)](https://github.com/kunalnagar/jquery.peekABar/releases/latest) 
-[![license](https://img.shields.io/github/license/kunalnagar/jquery.peekABar.svg)](https://github.com/kunalnagar/jquery.peekABar/blob/master/LICENSE) 
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/kunalnagar/jquery.peekABar/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) 
+[![npm version](https://img.shields.io/npm/v/jquery-peek-a-bar.svg)](https://www.npmjs.com/package/jquery-peek-a-bar)
+[![bower version](https://img.shields.io/bower/v/jquery.peekABar.svg)](https://github.com/kunalnagar/jquery.peekABar/releases/latest)
+[![license](https://img.shields.io/github/license/kunalnagar/jquery.peekABar.svg)](https://github.com/kunalnagar/jquery.peekABar/blob/master/LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/kunalnagar/jquery.peekABar/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
 A jQuery plugin for a notification bar with a lot of customization options.
+
+# Add notice about deprecating bower
 
 ## Installation
 
@@ -19,38 +21,38 @@ bower install jquery.peekABar --save
 ### html
 Use custom HTML as bar text.
 
-Type: `String`  
+Type: `String`
 Default: `Your Message Here`
 
 ### autohide
 Autohide the bar after it is shown.
 
-Type: `Boolean`  
+Type: `Boolean`
 Default: `false`
 
 ### delay
 Time (in ms) before the bar is hidden if `autohide` is `true`.
 
-Type: `Number`  
+Type: `Number`
 Default: `3000`
 
 ### padding
 Add some padding to the bar.
 
-Type: `String`  
+Type: `String`
 Default: `1em`
 
 ### backgroundColor
 Add a custom background color to the bar.
 
-Type: `String`  
+Type: `String`
 Default: `rgb(195, 195, 195)`
 
 ### animation
 The way in which the bar reveals itself.
 
-Type: `Object`  
-Example:  
+Type: `Object`
+Example:
 ```
 animation: {
     type: 'slide/fade',
@@ -61,26 +63,26 @@ animation: {
 ### cssClass
 Assign a Custom CSS class to the bar. **Overrides ALL styles passed as options**. For e.g. padding, backgroundColor etc.
 
-Type: `String`  
+Type: `String`
 Default: `empty`
 
 ### opacity
 Change bar opacity.
 
-Type: `Number`  
+Type: `Number`
 Default: `1`
 
 ### position
 Where should the bar be revealed? Top or bottom of the page?
 
-Type: `String`  
-Default: `top`  
+Type: `String`
+Default: `top`
 Values: `top | bottom`
 
 ### closeOnClick
 Close the bar by clicking on it.
 
-Type: `Boolean`  
+Type: `Boolean`
 Default: `false`
 
 ## Event Methods

@@ -1,0 +1,8 @@
+{
+  "files": [
+    {
+      "path": "./dist/js/jquery.peekabar.min.js",
+      "maxSize": "1 kB"
+    }
+  ]
+}

@@ -1,27 +1,7 @@
 {
 	"name": "jquery-peek-a-bar",
-	"version": "2.0.1",
+	"version": "3.0.0",
 	"description": "A jQuery plugin for a notification bar with a lot of customization options.",
-	"main": "src/js/peekabar.js",
-	"scripts": {
-		"build": "./node_modules/.bin/grunt build"
-	},
-	"author": "",
-	"license": "MIT",
-	"devDependencies": {
-		"@babel/core": "^7.4.5",
-		"@babel/preset-env": "^7.4.5",
-		"grunt": "^1.0.4",
-		"grunt-babel": "^8.0.0",
-		"grunt-contrib-copy": "^0.8.0",
-		"grunt-contrib-cssmin": "^3.0.0",
-		"grunt-contrib-uglify": "^4.0.1",
-		"grunt-contrib-watch": "^1.1.0",
-		"grunt-sass": "*",
-		"load-grunt-tasks": "^3.2.0",
-		"node-sass": "^4.12.0",
-		"time-grunt": "^1.2.1"
-	},
 	"keywords": [
 		"jquery-plugin",
 		"ecosystem:jquery"
@@ -29,5 +9,53 @@
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/kunalnagar/jquery.peekABar.git"
+	},
+	"license": "MIT",
+	"author": "",
+	"main": "src/js/peekabar.js",
+	"scripts": {
+		"build": "./node_modules/.bin/grunt build",
+		"bundlesize": "bundlesize",
+		"lint": "eslint src/ --ext .ts,.tsx --max-warnings 0 src/"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"package.json": [
+			"sort-package-json"
+		],
+		"src/**/*.{ts,tsx}": [
+			"prettier --write",
+			"eslint --fix src/ --ext .ts,.tsx --max-warnings 0"
+		]
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.8.7",
+		"@babel/plugin-proposal-class-properties": "^7.8.3",
+		"@babel/preset-env": "^7.8.7",
+		"@babel/preset-typescript": "^7.8.3",
+		"bundlesize": "^0.18.0",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.10.0",
+		"eslint-plugin-prettier": "^3.1.2",
+		"grunt": "^1.0.4",
+		"grunt-babel": "^8.0.0",
+		"grunt-contrib-copy": "^0.8.0",
+		"grunt-contrib-cssmin": "^3.0.0",
+		"grunt-contrib-uglify": "^4.0.1",
+		"grunt-contrib-watch": "^1.1.0",
+		"grunt-sass": "*",
+		"husky": "^4.2.3",
+		"lint-staged": "^10.0.8",
+		"load-grunt-tasks": "^3.2.0",
+		"node-sass": "^4.12.0",
+		"prettier": "^1.19.1",
+		"sort-package-json": "^1.40.0",
+		"time-grunt": "^1.2.1",
+		"typescript": "^3.8.3"
 	}
 }
