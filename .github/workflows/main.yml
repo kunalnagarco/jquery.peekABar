@@ -15,3 +15,5 @@ jobs:
       - name: Deploy to npm
         if: startsWith(github.ref, 'refs/tags/')
         run: npm run deploy
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
