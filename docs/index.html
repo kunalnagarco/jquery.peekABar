@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jquery.peekABar | A jQuery Notification Bar plugin</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/jquery-peek-a-bar/dist/css/jquery.peekabar.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/themes/prism-okaidia.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+
+    <!--Facebook Card-->
+    <meta
+      property="og:title"
+      content="jquery.peekABar | A jQuery Notification Bar Plugin"
+    />
+    <meta
+      property="og:site_name"
+      content="jquery.peekABar | A jQuery Notification Bar Plugin"
+    />
+    <meta
+      property="og:url"
+      content="http://kunalnagar.github.io/jquery.peekABar"
+    />
+    <meta
+      property="og:description"
+      content="A simple jQuery Plugin for showing a Notification Bar."
+    />
+    <meta
+      property="og:image"
+      content="http://kunalnagar.github.io/jquery.peekABar/jquery.peekABar.png"
+    />
+
+    <!--Twitter Card-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@_kunalnagar" />
+    <meta name="twitter:creator" content="@_kunalnagar" />
+    <meta
+      name="twitter:title"
+      content="jquery.peekABar | A jQuery Notification Bar Plugin"
+    />
+    <meta
+      name="twitter:description"
+      content="A simple jQuery Plugin for showing a Notification Bar."
+    />
+    <meta
+      name="twitter:image"
+      content="http://kunalnagar.github.io/jquery.peekABar/jquery.peekABar.png"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">jquery.peekABar</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#getting_started">Getting Started</a></li>
+            <li><a href="#demo">Demo</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a
+                href="https://github.com/kunalnagar/jquery.peekABar"
+                target="_blank"
+              >
+                <i class="fa fa-github fa-lg"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h2>Welcome to jQuery.peekABar</h2>
+        <p>The Ultimate Notification Bar Plugin built on top of jQuery</p>
+        <br /><br />
+        <p class="area-download">
+          <a
+            class="btn btn-default btn-lg btn-download"
+            href="https://github.com/kunalnagar/jquery.peekABar/archive/v2.0.0.zip"
+            role="button"
+          >
+            <i class="fa fa-download"></i>&nbsp; Download v2.0.0
+          </a>
+        </p>
+        <small>(0.75KB gzipped)</small>
+      </div>
+    </div>
+
+    <div id="features" class="single-block features">
+      <div class="container">
+        <h2 class="text-center">Features</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+            <i class="fa fa-terminal fa-3x"></i>
+            <p>
+              Minimal Code
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+            <i class="fa fa-cogs fa-3x"></i>
+            <p>
+              Highly Customizable
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+            <i class="fa fa-smile-o fa-3x"></i>
+            <p>
+              Awesome Support
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div id="getting_started" class="single-block getting-started">
+      <div class="container">
+        <h2 class="text-center">Install</h2>
+        <p class="text-center">
+          <code>
+            npm install jquery.peekABar --save </code
+          ><br />
+          <code>
+            bower install jquery.peekABar --save
+          </code>
+        </p>
+      </div>
+    </div>
+
+    <hr />
+
+    <div id="demo" class="single-block demo">
+      <div class="container">
+        <h2 class="text-center">Demos</h2>
+
+        <!--Default Bar-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Default Bar</h4>
+            <p>
+              The simplest way to create a peek-a-bar!
+            </p>
+            <br />
+            <button class="btn btn-success btn-default-show">Show Bar</button>
+            <button class="btn btn-danger btn-default-hide">Hide Bar</button>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar();
+bar.show();
+bar.hide();
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+
+        <!--Override Default HTML-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Override Default HTML</h4>
+            <p>
+              You can use custom HTML in the bar. Click the Show Bar button to
+              see the new HTML.
+            </p>
+            <br />
+            <button class="btn btn-success btn-override-show">
+              Show Bar (Override HTML)
+            </button>
+            <button class="btn btn-danger btn-override-hide">Hide Bar</button>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar();
+bar.show({
+    html: 'Override all, puny humans!'
+});
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+
+        <!--Autohide Bar-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Autohide Bar</h4>
+            <p>
+              Setting <code>autohide: true</code> will automatically hide the
+              bar after 3 seconds (default).
+            </p>
+            <br />
+            <button class="btn btn-success btn-autohide-show">Show Bar</button>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar({
+    autohide: true
+});
+bar.show();
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+
+        <!--Change Bar Padding-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Change Bar Padding</h4>
+            <p>
+              Set a custom bar padding.
+            </p>
+            <br />
+            <button class="btn btn-success btn-padding-show">
+              Show Bar (Padding: 2em)
+            </button>
+            <button class="btn btn-danger btn-padding-hide">Hide Bar</button>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar({
+    padding: '2em'
+});
+bar.show();
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+
+        <!--Change Bar Background Color-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Change Bar Background Color</h4>
+            <p>
+              Set a custom bar background color (green).
+            </p>
+            <br />
+            <button class="btn btn-success btn-bgcolorbar-show">
+              Show Bar (Background Color: green)
+            </button>
+            <button class="btn btn-danger btn-bgcolorbar-hide">Hide Bar</button>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar({
+    backgroundColor: 'green'
+});
+bar.show();
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+
+        <!--Change Bar Animation Type-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Animation Type</h4>
+            <p>
+              Make the bar reveal itself using a slide/fade animation with a
+              custom render duration.
+            </p>
+            <br />
+            <button class="btn btn-success btn-animationbar-show">
+              Show Bar (Fade/1000)
+            </button>
+            <button class="btn btn-danger btn-animationbar-hide">
+              Hide Bar
+            </button>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar({
+    animation: {
+        type: 'fade',
+        duration: 1000
+    }
+});
+bar.show();
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+
+        <!--Apply Custom Class-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Custom CSS Class</h4>
+            <p>
+              Apply a custom CSS class to the bar. Please note that this will
+              override all styles set in the options.
+            </p>
+            <br />
+            <button class="btn btn-success btn-cssclass-show">
+              Show Bar (CSS class: custom-class)
+            </button>
+            <button class="btn btn-danger btn-cssclass-hide">Hide Bar</button>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar({
+    cssClass: 'custom-class'
+});
+bar.show();
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+
+        <!--Apply Opacity-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Opacity</h4>
+            <p>
+              Change the opacity of the bar to get a translucent/transparent
+              effect.
+            </p>
+            <br />
+            <button class="btn btn-success btn-opacity-show">
+              Show Bar (Opacity: 0.7)
+            </button>
+            <button class="btn btn-danger btn-opacity-hide">Hide Bar</button>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar({
+    opacity: 0.7
+});
+bar.show();
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+
+        <!--Apply Position-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Custom Bar Position</h4>
+            <p>
+              Where would you like the bar to show? Top or bottom?
+            </p>
+            <br />
+            <button class="btn btn-success btn-posbar-show">
+              Show Bar (Position: bottom)
+            </button>
+            <button class="btn btn-danger btn-posbar-hide">Hide Bar</button>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar({
+    position: 'bottom'
+});
+bar.show();
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+
+        <!--Bar on Show/Hide-->
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Bar on Show/Hide Events</h4>
+            <p>
+              Want something to happen after the bar is shown/hidden? Use the
+              onShow/onHide events.
+            </p>
+            <br />
+            <button class="btn btn-success btn-showhide-show">Show Bar</button>
+            <button class="btn btn-danger btn-showhide-hide">Hide Bar</button
+            ><br /><br />
+            <div>
+              <div class="alert alert-success">
+                This is HIDDEN originally and will be SHOWN after you click Show
+                Bar. (Resets after 5 seconds)
+              </div>
+            </div>
+            <div>
+              <div class="alert alert-danger">
+                This is SHOWN originally and will be HIDDEN after you click Hide
+                Bar. (Resets after 5 seconds)
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h4>Code</h4>
+            <pre>
+<code class="language-javascript">
+var bar = new $.peekABar({
+    onShow: function() {
+        // Do something after bar is shown.
+    },
+    onHide: function() {
+        // Do something after bar is hidden.
+    }
+});
+bar.show();
+</code>
+</pre>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <div id="contact" class="single-block contact">
+      <div class="container">
+        <h2 class="text-center">Contact</h2>
+        <div class="text-center">
+          <p>
+            For any issues/feedback, please create a
+            <a
+              href="https://github.com/kunalnagar/jquery.peekABar/issues"
+              target="_blank"
+              >Github Issue</a
+            >.
+          </p>
+          <p>
+            For any other queries, please send an email to:
+            <a href="mailto:knlnagar@gmail.com">knlnagar@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/jquery-peek-a-bar/dist/js/jquery.peekabar.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/prism.min.js"></script>
+      <script src="main.js"></script>
+      <script>
+        (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          (i[r] =
+            i[r] ||
+            function () {
+              (i[r].q = i[r].q || []).push(arguments);
+            }),
+            (i[r].l = 1 * new Date());
+          (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m);
+        })(
+          window,
+          document,
+          'script',
+          '//www.google-analytics.com/analytics.js',
+          'ga',
+        );
+
+        ga('create', 'UA-64577144-2', 'auto');
+        ga('send', 'pageview');
+      </script>
+    </footer>
+  </body>
+</html>
