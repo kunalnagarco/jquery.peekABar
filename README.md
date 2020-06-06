@@ -7,7 +7,7 @@ A jQuery plugin for a notification bar with a lot of customization options.
 
 ## Important Note
 
-We have stopped supporting `bower` as a package manager since `v3.0.0`
+We have stopped supporting `bower` as a package manager since `v3.0.0`.
 
 ## Installation
 
