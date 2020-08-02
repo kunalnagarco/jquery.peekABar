@@ -1,16 +1,16 @@
 {
   "name": "jquery-peek-a-bar",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A jQuery plugin for a notification bar with a lot of customization options.",
-  "main": "src/js/peekabar.js",
+  "main": "dist/js/jquery.peekabar.js",
   "scripts": {
     "cleanup": "rm -rf build",
     "copy:packagejson": "cp package.json build/",
     "copy:readme": "cp README.md build/",
     "build": "npm run cleanup && ./node_modules/.bin/grunt build",
-    "deploy": "npm run copy:packagejson && npm run copy:readme && cd build && npm publish"
+    "release": "npm run copy:packagejson && npm run copy:readme && cd build && npm publish"
   },
-  "author": "",
+  "author": "Kunal Nagar <knlnagar@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.5",
