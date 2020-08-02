@@ -1,6 +1,5 @@
 # jquery.peekABar
 
-![](https://github.com/kunalnagar/jquery.peekABar/workflows/build/badge.svg)
 [![npm version](https://img.shields.io/npm/v/jquery-peek-a-bar.svg)](https://www.npmjs.com/package/jquery-peek-a-bar)
 
 A jQuery plugin for a notification bar with a lot of customization options.
