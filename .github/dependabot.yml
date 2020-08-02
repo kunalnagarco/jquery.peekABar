@@ -11,3 +11,4 @@ updates:
     commit-message:
       prefix: 'chore'
       include: 'scope'
+    rebase-strategy: 'disabled'
