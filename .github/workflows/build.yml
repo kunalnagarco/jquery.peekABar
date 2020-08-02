@@ -14,8 +14,3 @@ jobs:
         run: npm install
       - name: Run build
         run: npm run build
-      - name: Release to npm
-        if: startsWith(github.ref, 'refs/tags/')
-        run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> build/.npmrc
-          npm run release
