@@ -7,10 +7,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - name: Install dependencies
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '14'
+      - name: Install npm dependencies
         run: npm install
-      - name: Run build
+      - name: Create npm build
         run: npm run build

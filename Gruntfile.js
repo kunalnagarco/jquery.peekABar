@@ -13,8 +13,8 @@
         },
         dist: {
           files: {
-            'build/dist/js/jquery.peekabar.js':
-              'build/dist/js/jquery.peekabar.js',
+            'dist/js/jquery.peekabar.js':
+              'dist/js/jquery.peekabar.js',
           },
         },
       },
@@ -24,11 +24,11 @@
             {
               expand: true,
               src: 'src/js/peekabar.js',
-              dest: 'build/dist/js/',
+              dest: 'dist/js/',
               rename: function (dest) {
                 return dest + 'jquery.peekabar.js';
               },
-            },
+            }
           ],
         },
       },
@@ -39,8 +39,8 @@
         },
         my_target: {
           files: {
-            'build/dist/js/jquery.peekabar.min.js': [
-              'build/dist/js/jquery.peekabar.js',
+            'dist/js/jquery.peekabar.min.js': [
+              'dist/js/jquery.peekabar.js',
             ],
           },
         },
@@ -52,7 +52,7 @@
         },
         dist: {
           files: {
-            'build/dist/css/jquery.peekabar.css': 'src/scss/peekabar.scss',
+            'dist/css/jquery.peekabar.css': 'src/scss/peekabar.scss',
           },
         },
       },
@@ -62,8 +62,8 @@
         },
         target: {
           files: {
-            'build/dist/css/jquery.peekabar.min.css': [
-              'build/dist/css/jquery.peekabar.css',
+            'dist/css/jquery.peekabar.min.css': [
+              'dist/css/jquery.peekabar.css',
             ],
           },
         },

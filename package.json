@@ -3,12 +3,14 @@
   "version": "3.0.2",
   "description": "A jQuery plugin for a notification bar with a lot of customization options.",
   "main": "dist/js/jquery.peekabar.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "cleanup": "rm -rf build",
-    "copy:packagejson": "cp package.json build/",
-    "copy:readme": "cp README.md build/",
-    "build": "npm run cleanup && ./node_modules/.bin/grunt build",
-    "release": "npm run copy:packagejson && npm run copy:readme && cd build && npm publish"
+    "prebuild": "rm -rf build",
+    "build": "grunt build",
+    "release": "standard-version",
+    "deploy": "sh ./scripts/deploy.sh"
   },
   "author": "Kunal Nagar <knlnagar@gmail.com>",
   "license": "MIT",
@@ -25,6 +27,7 @@
     "load-grunt-tasks": "^3.2.0",
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
+    "standard-version": "^9.0.0",
     "time-grunt": "^1.2.1"
   },
   "keywords": [

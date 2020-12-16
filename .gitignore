@@ -1,6 +1,7 @@
 bower_components
 node_modules
-build
+dist
+*.tgz
 
 .idea
 .DS_Store
