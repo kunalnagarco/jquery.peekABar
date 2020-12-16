@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.0.2...v3.1.0) (2020-12-16)
+
+
+### Features
+
+* Better deployment process ([962ba19](https://github.com/kunalnagar/jquery.peekABar/commit/962ba19b7eb23e1c77211aa74e474101be71c2d8))
+
+
+### Chores
+
+* **deps:** bump ini from 1.3.5 to 1.3.8 ([#17](https://github.com/kunalnagar/jquery.peekABar/issues/17)) ([8c0a107](https://github.com/kunalnagar/jquery.peekABar/commit/8c0a107610d7fe5c48bfac55cdbddf09f2239a70))
+
 ### [3.0.2](https://github.com/kunalnagar/jquery.peekABar/compare/v2.0.1...v3.0.2) (2020-12-16)
 
 
