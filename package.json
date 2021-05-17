@@ -15,7 +15,7 @@
   "author": "Kunal Nagar <knlnagar@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.14.2",
+    "@babel/core": "7.14.3",
     "@babel/preset-env": "7.14.2",
     "grunt": "1.4.0",
     "grunt-babel": "8.0.0",
