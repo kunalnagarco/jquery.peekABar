@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/jquery-peek-a-bar.svg)](https://www.npmjs.com/package/jquery-peek-a-bar)
 
-A jQuery plugin for a notification bar with a lot of customization options.
+A jQuery plugin for a notification bar with customization options.
 
 ## Important Note
 
