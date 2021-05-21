@@ -1,8 +1,11 @@
-name: Release to npm
+name: Release
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - master
+    tags-ignore:
+      - '*.*'
 
 jobs:
   release:
@@ -12,11 +15,11 @@ jobs:
       - uses: actions/setup-node@v2-beta
         with:
           node-version: '14'
-      - name: Install npm dependencies
-        run: npm install
+      - name: Install dependencies
+        run: npm ci
       - name: Create build
         run: npm run build
       - name: Authenticate with the npm registry
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
-      - name: Release to npm
-        run: npm publish --access public
+      - name: Release
+        run: npm run release

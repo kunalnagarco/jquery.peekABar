@@ -9,14 +9,19 @@
   "scripts": {
     "prebuild": "rm -rf build",
     "build": "grunt build",
-    "release": "standard-version",
-    "deploy": "sh ./scripts/deploy.sh"
+    "release": "semantic-release"
   },
   "author": "Kunal Nagar <knlnagar@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.14.3",
     "@babel/preset-env": "7.14.2",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.2.3",
+    "@semantic-release/npm": "^7.1.3",
+    "@semantic-release/release-notes-generator": "^9.0.2",
     "grunt": "1.4.0",
     "grunt-babel": "8.0.0",
     "grunt-contrib-copy": "0.8.2",
@@ -27,7 +32,7 @@
     "load-grunt-tasks": "3.5.2",
     "node-sass": "4.14.1",
     "prettier": "2.3.0",
-    "standard-version": "9.0.0",
+    "semantic-release": "^17.4.3",
     "time-grunt": "1.4.0"
   },
   "keywords": [
@@ -37,5 +42,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/kunalnagar/jquery.peekABar.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
