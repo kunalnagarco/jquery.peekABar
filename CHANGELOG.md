@@ -1,5 +1,35 @@
 # Changelog
 
+## [3.2.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.1.0...v3.2.0) (2021-05-21)
+
+
+### Features
+
+* Switch to Semantic Release ([#45](https://github.com/kunalnagar/jquery.peekABar/issues/45)) ([2bb41bc](https://github.com/kunalnagar/jquery.peekABar/commit/2bb41bc6fc582d14260d9f88f0cd27db7eb156e4))
+
+
+### Chores
+
+* Add missing package ([216ba9a](https://github.com/kunalnagar/jquery.peekABar/commit/216ba9adb695648f39e5e0123e92d3b8bf25cc55))
+* Update README ([ac8d965](https://github.com/kunalnagar/jquery.peekABar/commit/ac8d965d860a63e9fb90f3d4c5b700dd14030767))
+* Update Release configuration ([4e214d8](https://github.com/kunalnagar/jquery.peekABar/commit/4e214d84e5242973371a208f8654eaedc4387fa9))
+* **deps:** bump hosted-git-info from 2.7.1 to 2.8.9 ([#43](https://github.com/kunalnagar/jquery.peekABar/issues/43)) ([24ee05d](https://github.com/kunalnagar/jquery.peekABar/commit/24ee05d6fd5750dc324fcefb8e820f9f73287372))
+* **deps:** bump lodash from 4.17.19 to 4.17.21 ([#31](https://github.com/kunalnagar/jquery.peekABar/issues/31)) ([fb916c7](https://github.com/kunalnagar/jquery.peekABar/commit/fb916c75cb18234a8df2ffb0b1acf9d3b06a1b91))
+* **deps:** bump y18n from 4.0.0 to 4.0.1 ([#18](https://github.com/kunalnagar/jquery.peekABar/issues/18)) ([1ca4652](https://github.com/kunalnagar/jquery.peekABar/commit/1ca4652e34d4cdfdae461518b79702aedecce072))
+* **deps:** pin dependencies ([#25](https://github.com/kunalnagar/jquery.peekABar/issues/25)) ([d85a675](https://github.com/kunalnagar/jquery.peekABar/commit/d85a6754b43430ad0f304d2b36bc4f003a030a35))
+* **deps:** update babel monorepo ([#27](https://github.com/kunalnagar/jquery.peekABar/issues/27)) ([0aefd35](https://github.com/kunalnagar/jquery.peekABar/commit/0aefd352f0b75bd6034e52a8ca1bd1df29f871d9))
+* **deps:** update babel monorepo to v7.14.2 ([cf18351](https://github.com/kunalnagar/jquery.peekABar/commit/cf183516f84fcd243eb90a83961142641dd86acd))
+* **deps:** update dependency @babel/core to v7.14.3 ([225b0c0](https://github.com/kunalnagar/jquery.peekABar/commit/225b0c024ad848448c5336368c274ae9ea821905))
+* **deps:** update dependency grunt to v1.4.0 ([#28](https://github.com/kunalnagar/jquery.peekABar/issues/28)) ([9bfae43](https://github.com/kunalnagar/jquery.peekABar/commit/9bfae43bf576bb8f396d714dcefb65a8778f54ca))
+* **deps:** update dependency handlebars to 4.7.7 [security] ([#22](https://github.com/kunalnagar/jquery.peekABar/issues/22)) ([f9a2004](https://github.com/kunalnagar/jquery.peekABar/commit/f9a200480d56c7509151bcee69c253f4d5ce1cc4))
+* **deps:** update dependency lightbox2 to v2.11.3 ([#26](https://github.com/kunalnagar/jquery.peekABar/issues/26)) ([6ec39db](https://github.com/kunalnagar/jquery.peekABar/commit/6ec39dbe5be6bb91ebe6bbfc165fc705f55ac42e))
+* **deps:** update dependency prettier to v2.2.1 ([#29](https://github.com/kunalnagar/jquery.peekABar/issues/29)) ([2f64bbf](https://github.com/kunalnagar/jquery.peekABar/commit/2f64bbf213c3b57d677042b27a2f4f93609e6cf4))
+* **deps:** update dependency prettier to v2.3.0 ([#42](https://github.com/kunalnagar/jquery.peekABar/issues/42)) ([56c1521](https://github.com/kunalnagar/jquery.peekABar/commit/56c1521567b6438a620866dc0c2d953f752b6f7a))
+* **deps:** update dependency prism to v1.23.0 ([#30](https://github.com/kunalnagar/jquery.peekABar/issues/30)) ([61e25d7](https://github.com/kunalnagar/jquery.peekABar/commit/61e25d753813b568e7c039cfd8c4de590579a935))
+* **deps:** update node.js to v14.16.1 ([#44](https://github.com/kunalnagar/jquery.peekABar/issues/44)) ([1fea29b](https://github.com/kunalnagar/jquery.peekABar/commit/1fea29bae827fe603d7467d38fa245b4ec0f4a0c))
+* **deps:** update node.js to v14.17.0 ([1979dca](https://github.com/kunalnagar/jquery.peekABar/commit/1979dca77142295c0f8efc5f59848c55c0e48981))
+* Update Renovate config ([ca9fdd5](https://github.com/kunalnagar/jquery.peekABar/commit/ca9fdd57629510e13def3f6b14078964e6e6ea9a))
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ## [3.1.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.0.2...v3.1.0) (2020-12-16)
