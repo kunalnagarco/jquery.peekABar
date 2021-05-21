@@ -17,5 +17,5 @@ jobs:
         run: npm install
       - name: Create npm build
         run: npm run build
-      - name: Release
-        run: npm run release
+      - name: Check pack
+        run: npm pack

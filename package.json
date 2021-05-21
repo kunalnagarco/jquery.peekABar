@@ -9,8 +9,7 @@
   "scripts": {
     "prebuild": "rm -rf build",
     "build": "grunt build",
-    "release": "semantic-release --dry-run",
-    "deploy": "sh ./scripts/deploy.sh"
+    "release": "semantic-release --dry-run"
   },
   "author": "Kunal Nagar <knlnagar@gmail.com>",
   "license": "MIT",
@@ -44,5 +43,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/kunalnagar/jquery.peekABar.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
