@@ -1,3 +1,5 @@
+name: Build
+
 on:
   push:
     branches:
@@ -13,9 +15,9 @@ jobs:
       - uses: actions/setup-node@v2-beta
         with:
           node-version: '14'
-      - name: Install npm dependencies
+      - name: Install dependencies
         run: npm install
-      - name: Create npm build
+      - name: Create build
         run: npm run build
-      - name: Check pack
+      - name: Release pre-check
         run: npm pack
