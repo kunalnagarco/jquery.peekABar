@@ -9,7 +9,7 @@
   "scripts": {
     "prebuild": "rm -rf build",
     "build": "grunt build",
-    "release": "semantic-release --dry-run"
+    "release": "semantic-release"
   },
   "author": "Kunal Nagar <knlnagar@gmail.com>",
   "license": "MIT",
