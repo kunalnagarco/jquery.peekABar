@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.1](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.0...v3.2.1) (2021-05-21)
+
+
+### Chores
+
+* **deps:** pin dependencies ([260e550](https://github.com/kunalnagar/jquery.peekABar/commit/260e5509bdfedbf949eeee56a9bce18e04c4a8c3))
+
 ## [3.2.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.1.0...v3.2.0) (2021-05-21)
 
 
