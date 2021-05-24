@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.2](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.1...v3.2.2) (2021-05-24)
+
+
+### Chores
+
+* **deps:** update dependency grunt to v1.4.1 ([d6f9abf](https://github.com/kunalnagar/jquery.peekABar/commit/d6f9abfdf934aa4c063fc21c052d2a482e5d3298))
+
 ### [3.2.1](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.0...v3.2.1) (2021-05-21)
 
 
