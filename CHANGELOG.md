@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.5](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.4...v3.2.5) (2021-06-09)
+
+
+### Chores
+
+* **deps:** update dependency normalize-url to 6.0.1 [security] ([#46](https://github.com/kunalnagar/jquery.peekABar/issues/46)) ([ad60d0c](https://github.com/kunalnagar/jquery.peekABar/commit/ad60d0cacb3959d54267729f08fb384aaab2d44f))
+
 ### [3.2.4](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.3...v3.2.4) (2021-06-05)
 
 
