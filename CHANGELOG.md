@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.7](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.6...v3.2.7) (2021-06-11)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/release-notes-generator to v9.0.3 ([5c0380f](https://github.com/kunalnagar/jquery.peekABar/commit/5c0380f1dd23fbf079653ead52357d8f64b0c18f))
+
 ### [3.2.6](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.5...v3.2.6) (2021-06-11)
 
 
