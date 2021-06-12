@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.8](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.7...v3.2.8) (2021-06-12)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#47](https://github.com/kunalnagar/jquery.peekABar/issues/47)) ([dec6fe6](https://github.com/kunalnagar/jquery.peekABar/commit/dec6fe6d227ba36100bc55b668e2ffbce9f0105f))
+
 ### [3.2.7](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.6...v3.2.7) (2021-06-11)
 
 
