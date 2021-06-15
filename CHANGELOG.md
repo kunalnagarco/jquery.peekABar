@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.9](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.8...v3.2.9) (2021-06-15)
+
+
+### Chores
+
+* **deps:** update dependency @babel/core to v7.14.6 ([a6449c2](https://github.com/kunalnagar/jquery.peekABar/commit/a6449c21a51ac63bb17a0a6f1d8dc91169c16de4))
+
 ### [3.2.8](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.7...v3.2.8) (2021-06-12)
 
 
