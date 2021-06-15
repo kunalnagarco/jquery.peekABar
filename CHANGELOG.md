@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.11](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.10...v3.2.11) (2021-06-15)
+
+
+### Chores
+
+* **deps:** update node.js to v14.17.1 ([0daf67f](https://github.com/kunalnagar/jquery.peekABar/commit/0daf67fb33475f18c17b05f15916eacd9b280c3a))
+
 ### [3.2.10](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.9...v3.2.10) (2021-06-15)
 
 
