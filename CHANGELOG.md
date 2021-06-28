@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.17](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.16...v3.2.17) (2021-06-28)
+
+
+### Chores
+
+* **deps:** update dependency prism to v1.24.0 ([ae65bf5](https://github.com/kunalnagar/jquery.peekABar/commit/ae65bf5dce6614ee9a923d2dbe3d6f7384cfdb48))
+
 ### [3.2.16](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.15...v3.2.16) (2021-06-26)
 
 
