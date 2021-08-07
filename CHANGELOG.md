@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.2.29](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.28...v3.2.29) (2021-08-07)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#56](https://github.com/kunalnagar/jquery.peekABar/issues/56)) ([eb525bc](https://github.com/kunalnagar/jquery.peekABar/commit/eb525bccf4bbda5f6599514ffd802d6b9dabce43))
+* **deps:** update dependency tar to 3.2.3 [security] ([#57](https://github.com/kunalnagar/jquery.peekABar/issues/57)) ([1128993](https://github.com/kunalnagar/jquery.peekABar/commit/1128993341abc5f182c384144d09101f0e54aab9))
+
 ### [3.2.28](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.27...v3.2.28) (2021-08-04)
 
 
