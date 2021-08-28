@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.34](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.33...v3.2.34) (2021-08-28)
+
+
+### Chores
+
+* **deps:** update dependency semantic-release to v17.4.7 ([4dff303](https://github.com/kunalnagar/jquery.peekABar/commit/4dff30310194e169a89950a06bb73d461fdc3734))
+
 ### [3.2.33](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.32...v3.2.33) (2021-08-17)
 
 
