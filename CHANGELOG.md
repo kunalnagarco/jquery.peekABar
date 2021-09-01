@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.35](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.34...v3.2.35) (2021-09-01)
+
+
+### Chores
+
+* **deps:** update dependency tar to 6.1.9 [security] ([#61](https://github.com/kunalnagar/jquery.peekABar/issues/61)) ([1d953ae](https://github.com/kunalnagar/jquery.peekABar/commit/1d953ae9c5a5e32b003979467fd724786e8f0c8d))
+
 ### [3.2.34](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.33...v3.2.34) (2021-08-28)
 
 
