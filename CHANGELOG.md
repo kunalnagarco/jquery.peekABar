@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.39](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.38...v3.2.39) (2021-09-05)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/git to v9.0.1 ([abf1d5e](https://github.com/kunalnagar/jquery.peekABar/commit/abf1d5e0d79647c18e1f32113c0008d5af6d4d31))
+
 ### [3.2.38](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.37...v3.2.38) (2021-09-04)
 
 
