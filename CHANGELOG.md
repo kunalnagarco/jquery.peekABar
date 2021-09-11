@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.42](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.41...v3.2.42) (2021-09-11)
+
+
+### Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v4.6.1 ([44216b7](https://github.com/kunalnagar/jquery.peekABar/commit/44216b76456edc2935c5da02105ac78c42e0e80d))
+
 ### [3.2.41](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.40...v3.2.41) (2021-09-11)
 
 
