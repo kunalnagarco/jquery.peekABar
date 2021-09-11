@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.41](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.40...v3.2.41) (2021-09-11)
+
+
+### Chores
+
+* **deps:** update dependency @babel/preset-env to v7.15.6 ([e8e2acf](https://github.com/kunalnagar/jquery.peekABar/commit/e8e2acf52d019b379e7f1bbb92391911195c3088))
+
 ### [3.2.40](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.39...v3.2.40) (2021-09-06)
 
 
