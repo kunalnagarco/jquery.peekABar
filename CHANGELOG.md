@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.49](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.48...v3.2.49) (2021-10-02)
+
+
+### Chores
+
+* **deps:** update node.js to v14.18.0 ([65605bc](https://github.com/kunalnagar/jquery.peekABar/commit/65605bc7b9e333c9627264dd86a35fb736aa4f9b))
+
 ### [3.2.48](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.47...v3.2.48) (2021-09-30)
 
 
