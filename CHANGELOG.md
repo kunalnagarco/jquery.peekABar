@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.2.55](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.54...v3.2.55) (2021-12-23)
+
+
+### Chores
+
+* **deps:** update babel monorepo to v7.16.5 ([#68](https://github.com/kunalnagar/jquery.peekABar/issues/68)) ([c541f74](https://github.com/kunalnagar/jquery.peekABar/commit/c541f74a93011da226a75a8c157dec811e13b790))
+* **deps:** update node.js to v14.18.2 ([#69](https://github.com/kunalnagar/jquery.peekABar/issues/69)) ([1d4da07](https://github.com/kunalnagar/jquery.peekABar/commit/1d4da07a5adaaa995dc98a7894f2252c7af32a08))
+
 ### [3.2.54](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.53...v3.2.54) (2021-10-30)
 
 
