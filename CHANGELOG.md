@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.2.58](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.57...v3.2.58) (2022-01-21)
+
+
+### Chores
+
+* **deps:** update babel monorepo ([#72](https://github.com/kunalnagar/jquery.peekABar/issues/72)) ([db34444](https://github.com/kunalnagar/jquery.peekABar/commit/db34444d52ba81c67f9ab48c03f70f38234fd68d))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v4.6.3 ([#73](https://github.com/kunalnagar/jquery.peekABar/issues/73)) ([c5e7ac1](https://github.com/kunalnagar/jquery.peekABar/commit/c5e7ac19bf8fbf87b93d3590eaaa0097af827647))
+* **deps:** update dependency marked to 4.0.10 [security] ([#75](https://github.com/kunalnagar/jquery.peekABar/issues/75)) ([6499ce3](https://github.com/kunalnagar/jquery.peekABar/commit/6499ce35829706695eba740bcdf6ab7087a0c4ac))
+
 ### [3.2.57](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.56...v3.2.57) (2021-12-28)
 
 
