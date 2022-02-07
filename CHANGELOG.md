@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.2.60](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.59...v3.2.60) (2022-02-07)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#76](https://github.com/kunalnagar/jquery.peekABar/issues/76)) ([cdde9e9](https://github.com/kunalnagar/jquery.peekABar/commit/cdde9e951d4e0f49898ab485414db3593094aa62))
+* **deps:** update dependency @babel/core to v7.17.0 ([#77](https://github.com/kunalnagar/jquery.peekABar/issues/77)) ([ac5ee8d](https://github.com/kunalnagar/jquery.peekABar/commit/ac5ee8d3abad88bcba60101f130e5666bd40aef0))
+* **deps:** update dependency semantic-release to v19.0.2 ([#78](https://github.com/kunalnagar/jquery.peekABar/issues/78)) ([1b82328](https://github.com/kunalnagar/jquery.peekABar/commit/1b823287295040ecdbbed899d59080f97c684c66))
+
 ### [3.2.59](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.58...v3.2.59) (2022-01-21)
 
 
