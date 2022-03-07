@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.61](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.60...v3.2.61) (2022-03-07)
+
+
+### Chores
+
+* **deps:** update dependency ansi-regex to 5.0.1 [security] ([#79](https://github.com/kunalnagar/jquery.peekABar/issues/79)) ([0fcfc16](https://github.com/kunalnagar/jquery.peekABar/commit/0fcfc16daaf09c030d2a6ed999efd4f1de6b7040))
+
 ### [3.2.60](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.59...v3.2.60) (2022-02-07)
 
 
