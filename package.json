@@ -32,7 +32,7 @@
     "grunt-sass": "*",
     "load-grunt-tasks": "3.5.2",
     "node-sass": "7.0.1",
-    "prettier": "2.4.1",
+    "prettier": "2.6.0",
     "semantic-release": "19.0.2",
     "time-grunt": "1.4.0"
   },
