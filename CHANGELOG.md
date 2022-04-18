@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.2.63](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.62...v3.2.63) (2022-04-18)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#81](https://github.com/kunalnagar/jquery.peekABar/issues/81)) ([66a24d9](https://github.com/kunalnagar/jquery.peekABar/commit/66a24d9c59a2a2e1c98576f1dbd8d249d6912fb2))
+* **deps:** update dependency prettier to v2.6.2 ([#86](https://github.com/kunalnagar/jquery.peekABar/issues/86)) ([9c23506](https://github.com/kunalnagar/jquery.peekABar/commit/9c23506f094352df3d8e8bd174e5c68863d58793))
+* **deps:** update dependency prism to v1.28.0 ([#87](https://github.com/kunalnagar/jquery.peekABar/issues/87)) ([b788b82](https://github.com/kunalnagar/jquery.peekABar/commit/b788b82beee6ce9a71c81c2ed93f576d1c29716e))
+
 ### [3.2.62](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.61...v3.2.62) (2022-03-20)
 
 
