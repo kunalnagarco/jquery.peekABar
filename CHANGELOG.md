@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.2.64](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.63...v3.2.64) (2022-04-18)
+
+
+### Chores
+
+* **deps:** update dependency async to 2.6.4 [security] ([#88](https://github.com/kunalnagar/jquery.peekABar/issues/88)) ([d53e325](https://github.com/kunalnagar/jquery.peekABar/commit/d53e325a3fc7f2d41d1ec4ca0c5a5ac0d9cfc48c))
+* **deps:** update dependency minimist to 1.2.6 [security] ([#85](https://github.com/kunalnagar/jquery.peekABar/issues/85)) ([a25459f](https://github.com/kunalnagar/jquery.peekABar/commit/a25459fa4eb78f318377825bd1b2e42c01701597))
+
 ### [3.2.63](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.62...v3.2.63) (2022-04-18)
 
 
