@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.2.65](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.64...v3.2.65) (2022-05-02)
+
+
+### Chores
+
+* **deps:** update babel monorepo to v7.17.10 ([#91](https://github.com/kunalnagar/jquery.peekABar/issues/91)) ([b575ff1](https://github.com/kunalnagar/jquery.peekABar/commit/b575ff1f2fab54eec71fa1ac9b28660c1c988c38))
+* **deps:** update dependency grunt to 1.5.2 [security] ([#90](https://github.com/kunalnagar/jquery.peekABar/issues/90)) ([fff0c1d](https://github.com/kunalnagar/jquery.peekABar/commit/fff0c1d28f25712e250dde9576a8adbd737f5a38))
+* **deps:** update dependency grunt to v1.5.2 ([#92](https://github.com/kunalnagar/jquery.peekABar/issues/92)) ([c73e839](https://github.com/kunalnagar/jquery.peekABar/commit/c73e839c11040ee9b3d2005809e4dc185fe07e99))
+
 ### [3.2.64](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.63...v3.2.64) (2022-04-18)
 
 
