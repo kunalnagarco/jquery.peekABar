@@ -1,5 +1,16 @@
 # Changelog
 
+### [3.2.67](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.66...v3.2.67) (2022-06-04)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#93](https://github.com/kunalnagar/jquery.peekABar/issues/93)) ([814eb0e](https://github.com/kunalnagar/jquery.peekABar/commit/814eb0ece45c755714814eaa49979cc07eb84a03))
+* **deps:** update dependency grunt to 1.5.3 [security] ([#94](https://github.com/kunalnagar/jquery.peekABar/issues/94)) ([c8e2784](https://github.com/kunalnagar/jquery.peekABar/commit/c8e27849343618db06647a41f81fbac01cc5d7f3))
+* **deps:** update dependency grunt to v1.5.3 ([#95](https://github.com/kunalnagar/jquery.peekABar/issues/95)) ([d06f7fc](https://github.com/kunalnagar/jquery.peekABar/commit/d06f7fc4db0a56d0289add4f4d6f89aaee73d3d9))
+* **deps:** update dependency npm to 8.11.0 [security] ([#97](https://github.com/kunalnagar/jquery.peekABar/issues/97)) ([299cd4f](https://github.com/kunalnagar/jquery.peekABar/commit/299cd4f8a15dfc3bb4a90ed487274e54203be988))
+* **deps:** update dependency semver-regex to 3.1.4 [security] ([#98](https://github.com/kunalnagar/jquery.peekABar/issues/98)) ([9e19670](https://github.com/kunalnagar/jquery.peekABar/commit/9e19670da8391bbde1074088dfd588c6295eec5a))
+
 ### [3.2.66](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.65...v3.2.66) (2022-05-02)
 
 
