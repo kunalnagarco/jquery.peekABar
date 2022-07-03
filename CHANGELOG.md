@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.2.69](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.68...v3.2.69) (2022-07-03)
+
+
+### Chores
+
+* **deps:** update babel monorepo to v7.18.6 ([#102](https://github.com/kunalnagar/jquery.peekABar/issues/102)) ([2392d1f](https://github.com/kunalnagar/jquery.peekABar/commit/2392d1f72a86355f5f019b8daf9c3c29b37d5034))
+* **deps:** update dependency @semantic-release/npm to v9.0.1 ([#103](https://github.com/kunalnagar/jquery.peekABar/issues/103)) ([c710491](https://github.com/kunalnagar/jquery.peekABar/commit/c710491a59ffe3681833c82513c5bd6b849a73c4))
+
 ### [3.2.68](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.67...v3.2.68) (2022-06-12)
 
 
