@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.2.71](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.70...v3.2.71) (2022-09-05)
+
+
+### Chores
+
+* **deps:** update dependency semantic-release to v19.0.5 ([#107](https://github.com/kunalnagar/jquery.peekABar/issues/107)) ([6bb11ba](https://github.com/kunalnagar/jquery.peekABar/commit/6bb11ba362074b974d9f905c6bd7c1c26da98e40))
+* **deps:** update node.js to v14.20.0 ([#108](https://github.com/kunalnagar/jquery.peekABar/issues/108)) ([9a97ae1](https://github.com/kunalnagar/jquery.peekABar/commit/9a97ae1c7f51a56796762e3ca37bcd3baeca63b6))
+
 ### [3.2.70](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.69...v3.2.70) (2022-08-01)
 
 
