@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.2.72](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.71...v3.2.72) (2022-09-10)
+
+
+### Chores
+
+* **deps:** update babel monorepo to v7.19.0 ([#104](https://github.com/kunalnagar/jquery.peekABar/issues/104)) ([e79ceb2](https://github.com/kunalnagar/jquery.peekABar/commit/e79ceb292139e5ade677011107d80a2ce057511c))
+* **deps:** update dependency scss-tokenizer to 0.4.3 [security] ([#109](https://github.com/kunalnagar/jquery.peekABar/issues/109)) ([b7b3b8f](https://github.com/kunalnagar/jquery.peekABar/commit/b7b3b8f8fed5c8f712e6a991ee74641fdfb10ea4))
+
 ### [3.2.71](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.70...v3.2.71) (2022-09-05)
 
 
