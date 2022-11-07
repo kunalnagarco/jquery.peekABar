@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.2.73](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.72...v3.2.73) (2022-11-07)
+
+
+### Chores
+
+* **deps:** update actions/checkout action to v3 ([#113](https://github.com/kunalnagar/jquery.peekABar/issues/113)) ([0ddebc2](https://github.com/kunalnagar/jquery.peekABar/commit/0ddebc2afee65dbc4825bfc16fa123651c19a8c4))
+* **deps:** update dependency node-sass to v7.0.3 ([#111](https://github.com/kunalnagar/jquery.peekABar/issues/111)) ([07e514f](https://github.com/kunalnagar/jquery.peekABar/commit/07e514fde6d93e9e1519899566c52279c29b9260))
+* **deps:** update node.js to v14.21.1 ([#112](https://github.com/kunalnagar/jquery.peekABar/issues/112)) ([300a875](https://github.com/kunalnagar/jquery.peekABar/commit/300a875dec5e96efc04fa7a70415120b9854bb7c))
+
 ### [3.2.72](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.71...v3.2.72) (2022-09-10)
 
 
