@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.2.74](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.73...v3.2.74) (2022-11-27)
+
+
+### Chores
+
+* **deps:** update babel monorepo to v7.20.2 ([#110](https://github.com/kunalnagar/jquery.peekABar/issues/110)) ([ff11588](https://github.com/kunalnagar/jquery.peekABar/commit/ff11588f0522f964766569793956fe1cf870386e))
+* **deps:** update dependency prettier to v2.8.0 ([#105](https://github.com/kunalnagar/jquery.peekABar/issues/105)) ([7ff2fd2](https://github.com/kunalnagar/jquery.peekABar/commit/7ff2fd262a9767aebfca5ae046f34039c3d0d4a5))
+
 ### [3.2.73](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.72...v3.2.73) (2022-11-07)
 
 
