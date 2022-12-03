@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.2.75](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.74...v3.2.75) (2022-12-03)
+
+
+### Chores
+
+* **deps:** update dependency @babel/core to v7.20.5 ([#114](https://github.com/kunalnagar/jquery.peekABar/issues/114)) ([d8148f4](https://github.com/kunalnagar/jquery.peekABar/commit/d8148f47c2d1396f7d9efaa1d057bc1cf64ca584))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v5 ([#115](https://github.com/kunalnagar/jquery.peekABar/issues/115)) ([de50cca](https://github.com/kunalnagar/jquery.peekABar/commit/de50ccaf81cd3665ea76ab566a170b00f36deaff))
+
 ### [3.2.74](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.73...v3.2.74) (2022-11-27)
 
 
