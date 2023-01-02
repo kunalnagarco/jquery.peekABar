@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.2.79](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.78...v3.2.79) (2023-01-02)
+
+
+### Chores
+
+* **deps:** update dependency @babel/core to v7.20.7 ([#119](https://github.com/kunalnagar/jquery.peekABar/issues/119)) ([68b7f41](https://github.com/kunalnagar/jquery.peekABar/commit/68b7f4133227cd821fcd6b62d3cffe8aac547836))
+* **deps:** update dependency prettier to v2.8.1 ([#120](https://github.com/kunalnagar/jquery.peekABar/issues/120)) ([20b0c81](https://github.com/kunalnagar/jquery.peekABar/commit/20b0c8122dc6254c0d3761acf2ea944831d581cf))
+
 ## [3.2.78](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.77...v3.2.78) (2022-12-23)
 
 
