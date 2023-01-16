@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.81](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.80...v3.2.81) (2023-01-16)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([a212ac2](https://github.com/kunalnagar/jquery.peekABar/commit/a212ac222a47837f907186bd42e8df3ce29eb217))
+
 ## [3.2.80](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.79...v3.2.80) (2023-01-14)
 
 
