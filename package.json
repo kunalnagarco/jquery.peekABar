@@ -33,7 +33,7 @@
     "load-grunt-tasks": "3.5.2",
     "node-sass": "7.0.3",
     "prettier": "2.8.1",
-    "semantic-release": "19.0.5",
+    "semantic-release": "20.0.1",
     "time-grunt": "1.4.0"
   },
   "keywords": [
