@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.3.2](https://github.com/kunalnagar/jquery.peekABar/compare/v3.3.1...v3.3.2) (2023-07-04)
+
+
+### Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v6 ([#127](https://github.com/kunalnagar/jquery.peekABar/issues/127)) ([4b6fa6c](https://github.com/kunalnagar/jquery.peekABar/commit/4b6fa6c194285813495c3acede1452935a0c6657))
+* **deps:** update dependency grunt-contrib-cssmin to v5 ([#128](https://github.com/kunalnagar/jquery.peekABar/issues/128)) ([2043adc](https://github.com/kunalnagar/jquery.peekABar/commit/2043adcf76da9831eb61731b60527d175998a58e))
+
 ## [3.3.1](https://github.com/kunalnagar/jquery.peekABar/compare/v3.3.0...v3.3.1) (2023-07-04)
 
 
