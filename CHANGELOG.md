@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.3.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.96...v3.3.0) (2023-07-04)
+
+
+### Features
+
+* Upgrade node version to LTS Hydrogen (18) ([#129](https://github.com/kunalnagar/jquery.peekABar/issues/129)) ([93ce761](https://github.com/kunalnagar/jquery.peekABar/commit/93ce7611e9af02f7c4b06512cf07ac32efe72907))
+
+
+### Chores
+
+* **deps:** lock file maintenance ([6ce855e](https://github.com/kunalnagar/jquery.peekABar/commit/6ce855e20f590416cbeb3bdb5409e0c608c4db69))
+* **deps:** update dependency lightbox2 to v2.11.4 ([#121](https://github.com/kunalnagar/jquery.peekABar/issues/121)) ([ac6c038](https://github.com/kunalnagar/jquery.peekABar/commit/ac6c03809d5ef8832f5c29f54836592afa21236c))
+
 ## [3.2.96](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.95...v3.2.96) (2023-04-03)
 
 
