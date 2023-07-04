@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.3.1](https://github.com/kunalnagar/jquery.peekABar/compare/v3.3.0...v3.3.1) (2023-07-04)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#122](https://github.com/kunalnagar/jquery.peekABar/issues/122)) ([91602cb](https://github.com/kunalnagar/jquery.peekABar/commit/91602cb7769b26be553b8ddf760073a0b70dab5f))
+* **deps:** update dependency @semantic-release/npm to v9.0.2 ([#125](https://github.com/kunalnagar/jquery.peekABar/issues/125)) ([ecdd086](https://github.com/kunalnagar/jquery.peekABar/commit/ecdd086527b421b6f14b7154e424dbcdad871490))
+* **deps:** update dependency prettier to v2.8.8 ([#126](https://github.com/kunalnagar/jquery.peekABar/issues/126)) ([62228d4](https://github.com/kunalnagar/jquery.peekABar/commit/62228d42018cbfd164d064fccdec609a0da37dac))
+
 ## [3.3.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.2.96...v3.3.0) (2023-07-04)
 
 
