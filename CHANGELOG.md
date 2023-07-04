@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.4.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.3.2...v3.4.0) (2023-07-04)
+
+
+### Features
+
+* Switch to yarn ([#130](https://github.com/kunalnagar/jquery.peekABar/issues/130)) ([dc3fb25](https://github.com/kunalnagar/jquery.peekABar/commit/dc3fb25234c207846297aab96eee04982ab02ec2))
+
+
+### Chores
+
+* Upgrade dependencies ([#131](https://github.com/kunalnagar/jquery.peekABar/issues/131)) ([3216e89](https://github.com/kunalnagar/jquery.peekABar/commit/3216e89afb73dc16205ff93f3f734d59d405f51b))
+
 ## [3.3.2](https://github.com/kunalnagar/jquery.peekABar/compare/v3.3.1...v3.3.2) (2023-07-04)
 
 
