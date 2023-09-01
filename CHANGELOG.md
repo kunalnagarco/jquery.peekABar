@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.10](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.9...v3.4.10) (2023-09-01)
+
+
+### Chores
+
+* **deps:** update semantic-release monorepo ([07a2571](https://github.com/kunalnagar/jquery.peekABar/commit/07a2571ecf357f9768d52412bd1d8d45af64d817))
+
 ## [3.4.9](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.8...v3.4.9) (2023-09-01)
 
 
