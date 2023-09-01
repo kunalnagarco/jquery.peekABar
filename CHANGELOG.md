@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.9](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.8...v3.4.9) (2023-09-01)
+
+
+### Chores
+
+* **deps:** update babel monorepo ([8c8a541](https://github.com/kunalnagar/jquery.peekABar/commit/8c8a541bc4dade86b99914c810f2508264fec447))
+
 ## [3.4.8](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.7...v3.4.8) (2023-08-28)
 
 
