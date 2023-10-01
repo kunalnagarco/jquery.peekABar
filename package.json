@@ -19,8 +19,8 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "10.0.4",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "9.0.4",
-    "@semantic-release/npm": "10.0.5",
+    "@semantic-release/github": "9.2.1",
+    "@semantic-release/npm": "10.0.6",
     "@semantic-release/release-notes-generator": "11.0.7",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "grunt": "1.6.1",
@@ -33,7 +33,7 @@
     "load-grunt-tasks": "5.1.0",
     "node-sass": "9.0.0",
     "prettier": "2.8.8",
-    "semantic-release": "21.1.1",
+    "semantic-release": "21.1.2",
     "time-grunt": "2.0.0"
   },
   "keywords": [
