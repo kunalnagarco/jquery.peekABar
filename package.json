@@ -22,7 +22,7 @@
     "@semantic-release/github": "9.2.4",
     "@semantic-release/npm": "11.0.1",
     "@semantic-release/release-notes-generator": "12.1.0",
-    "conventional-changelog-conventionalcommits": "6.1.0",
+    "conventional-changelog-conventionalcommits": "7.0.2",
     "grunt": "1.6.1",
     "grunt-babel": "8.0.0",
     "grunt-contrib-copy": "1.0.0",
