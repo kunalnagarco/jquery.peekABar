@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.4.27](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.26...v3.4.27) (2023-12-02)
+
+
+### Chores
+
+* **deps:** update actions/setup-node action to v4 ([#136](https://github.com/kunalnagar/jquery.peekABar/issues/136)) ([9a815ea](https://github.com/kunalnagar/jquery.peekABar/commit/9a815ea69c66af09ed916372f9974f4709fd7b2f))
+* **deps:** update semantic-release monorepo ([#135](https://github.com/kunalnagar/jquery.peekABar/issues/135)) ([bd073df](https://github.com/kunalnagar/jquery.peekABar/commit/bd073df1717c3adeb4ff7de7558fa589b6417290))
+
 ## [3.4.26](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.25...v3.4.26) (2023-12-01)
 
 
