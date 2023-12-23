@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.4.31](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.30...v3.4.31) (2023-12-23)
+
+
+### Chores
+
+* **deps:** update actions/checkout action to v4 ([#134](https://github.com/kunalnagar/jquery.peekABar/issues/134)) ([d2a7bda](https://github.com/kunalnagar/jquery.peekABar/commit/d2a7bda2c5a11e2562350b3c0d48c1d233e56853))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v7 ([#132](https://github.com/kunalnagar/jquery.peekABar/issues/132)) ([2b4d502](https://github.com/kunalnagar/jquery.peekABar/commit/2b4d502dbfd34990b3a6f017aa23008f5696dcc0))
+* **deps:** update dependency prettier to v3 ([#133](https://github.com/kunalnagar/jquery.peekABar/issues/133)) ([6c2a5d4](https://github.com/kunalnagar/jquery.peekABar/commit/6c2a5d4e0ad3ec071c2634d1e3a3e6652b26a171))
+
 ## [3.4.30](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.29...v3.4.30) (2023-12-18)
 
 
