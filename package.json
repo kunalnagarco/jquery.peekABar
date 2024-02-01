@@ -1,6 +1,6 @@
 {
   "name": "jquery-peek-a-bar",
-  "version": "3.4.39",
+  "version": "3.4.40",
   "description": "A jQuery plugin for a notification bar with a lot of customization options.",
   "main": "dist/js/jquery.peekabar.js",
   "files": [
