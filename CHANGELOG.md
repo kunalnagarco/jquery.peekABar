@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.5.1](https://github.com/kunalnagar/jquery.peekABar/compare/v3.5.0...v3.5.1) (2024-02-24)
+
+
+### Chores
+
+* **deps:** update dependency prettier to v3.2.5 ([0973eb7](https://github.com/kunalnagar/jquery.peekABar/commit/0973eb7a087adcd9c8380295f1ead679fe9565c3))
+* **deps:** update dependency prism to v1.29.0 ([#138](https://github.com/kunalnagar/jquery.peekABar/issues/138)) ([a8832d4](https://github.com/kunalnagar/jquery.peekABar/commit/a8832d430df68af1e0f763d4533d6faca39f2fc1))
+* **deps:** update dependency semantic-release to v23 ([#139](https://github.com/kunalnagar/jquery.peekABar/issues/139)) ([e4b7b42](https://github.com/kunalnagar/jquery.peekABar/commit/e4b7b4249966f22538f52e4f324e538f5c5f364c))
+
 ## [3.5.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.43...v3.5.0) (2024-02-24)
 
 
