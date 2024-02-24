@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.43...v3.5.0) (2024-02-24)
+
+
+### Features
+
+* Upgrade Node version ([#137](https://github.com/kunalnagar/jquery.peekABar/issues/137)) ([1c097dd](https://github.com/kunalnagar/jquery.peekABar/commit/1c097dd65037ce33d3929cfb0b945f40bd21a5a1))
+
 ## [3.4.43](https://github.com/kunalnagar/jquery.peekABar/compare/v3.4.42...v3.4.43) (2024-02-19)
 
 
