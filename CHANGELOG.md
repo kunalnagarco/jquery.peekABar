@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.5.2...v3.6.0) (2024-02-27)
+
+
+### Features
+
+* Create LICENSE ([2b953e1](https://github.com/kunalnagar/jquery.peekABar/commit/2b953e119e1861458e86e4ecdb8ba3d352769e9a))
+
 ## [3.5.2](https://github.com/kunalnagar/jquery.peekABar/compare/v3.5.1...v3.5.2) (2024-02-24)
 
 
