@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.2](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.1...v3.6.2) (2024-03-02)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/npm to v11.0.3 ([f356f46](https://github.com/kunalnagar/jquery.peekABar/commit/f356f463687a1fb45c3281d71fe595b50bd2fd75))
+
 ## [3.6.1](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.0...v3.6.1) (2024-02-28)
 
 
