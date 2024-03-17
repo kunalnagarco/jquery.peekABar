@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.6.7](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.6...v3.6.7) (2024-03-17)
+
+
+### Chores
+
+* **deps:** update semantic-release monorepo ([#142](https://github.com/kunalnagar/jquery.peekABar/issues/142)) ([6cf8067](https://github.com/kunalnagar/jquery.peekABar/commit/6cf806777955bb77c9418d59763faed21dd175bc))
+* Update README with Deprecation notice ([#141](https://github.com/kunalnagar/jquery.peekABar/issues/141)) ([3f27f86](https://github.com/kunalnagar/jquery.peekABar/commit/3f27f862bf6a89d398f45f68bf73800c62318fdd))
+
 ## [3.6.6](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.5...v3.6.6) (2024-03-16)
 
 
