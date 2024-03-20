@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.11](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.10...v3.6.11) (2024-03-20)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/commit-analyzer to v12 ([#143](https://github.com/kunalnagar/jquery.peekABar/issues/143)) ([3e308bc](https://github.com/kunalnagar/jquery.peekABar/commit/3e308bc5b7bba5581542d307403dba7c20798c46))
+
 ## [3.6.10](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.9...v3.6.10) (2024-03-19)
 
 
