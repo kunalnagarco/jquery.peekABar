@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.13](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.12...v3.6.13) (2024-03-24)
+
+
+### Chores
+
+* **deps:** update dependency semantic-release to v23.0.6 ([47c96b4](https://github.com/kunalnagar/jquery.peekABar/commit/47c96b4706725963933d9b1519fc08e27deed74c))
+
 ## [3.6.12](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.11...v3.6.12) (2024-03-20)
 
 
