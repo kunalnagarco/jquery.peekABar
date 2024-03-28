@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.6.15](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.14...v3.6.15) (2024-03-28)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/release-notes-generator to v13 ([#144](https://github.com/kunalnagar/jquery.peekABar/issues/144)) ([5b9d7ed](https://github.com/kunalnagar/jquery.peekABar/commit/5b9d7ed3d1acf582a57b50ce3fbe686b6dc4e4ca))
+* **deps:** update dependency node to v20.12.0 ([#145](https://github.com/kunalnagar/jquery.peekABar/issues/145)) ([13154db](https://github.com/kunalnagar/jquery.peekABar/commit/13154dbdb844750d255a1920027524e34a53b90d))
+
 ## [3.6.14](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.13...v3.6.14) (2024-03-25)
 
 
