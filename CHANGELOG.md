@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.19](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.18...v3.6.19) (2024-04-07)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/github to v10.0.3 ([bf740f5](https://github.com/kunalnagar/jquery.peekABar/commit/bf740f546e018ab64fc866f60aa4fd430db5d5d3))
+
 ## [3.6.18](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.17...v3.6.18) (2024-04-04)
 
 
