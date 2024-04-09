@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.21](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.20...v3.6.21) (2024-04-09)
+
+
+### Chores
+
+* **deps:** update dependency node to v20.12.1 ([#146](https://github.com/kunalnagar/jquery.peekABar/issues/146)) ([304faee](https://github.com/kunalnagar/jquery.peekABar/commit/304faeef287b29601a1ce5dc726cb02b4d2cb236))
+
 ## [3.6.20](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.19...v3.6.20) (2024-04-08)
 
 
