@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.22](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.21...v3.6.22) (2024-04-30)
+
+
+### Bug Fixes
+
+* Update README for cssClass option ([#148](https://github.com/kunalnagar/jquery.peekABar/issues/148)) ([befe7e0](https://github.com/kunalnagar/jquery.peekABar/commit/befe7e03e60fee1fef3ea832cc2a7175c1a3f664))
+
 ## [3.6.21](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.20...v3.6.21) (2024-04-09)
 
 
