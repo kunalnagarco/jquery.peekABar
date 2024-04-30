@@ -81,7 +81,7 @@ animation: {
 
 ### cssClass
 
-Assign a Custom CSS class to the bar. **Overrides ALL styles passed as options**. For e.g. padding, backgroundColor etc.
+Assign a Custom CSS class to the bar.
 
 Type: `String`
 Default: `empty`
