@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.6.27](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.26...v3.6.27) (2024-07-07)
+
+### Chores
+
+* **deps:** update babel monorepo to v7.24.7 ([c191672](https://github.com/kunalnagar/jquery.peekABar/commit/c191672c7802ff051a247053fbee36c5faf1425c))
+* **deps:** update dependency @semantic-release/github to v10.0.6 ([958f852](https://github.com/kunalnagar/jquery.peekABar/commit/958f85250b96ad982c8f3b71e6a882f53c7dece2))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v8 ([#151](https://github.com/kunalnagar/jquery.peekABar/issues/151)) ([097a723](https://github.com/kunalnagar/jquery.peekABar/commit/097a723b206365876048bceb79fa6708ccff4eed))
+* **deps:** update dependency node to v20.14.0 ([#150](https://github.com/kunalnagar/jquery.peekABar/issues/150)) ([2b9974e](https://github.com/kunalnagar/jquery.peekABar/commit/2b9974ecb8586973cefab492fcd8ac4e9df2c6a5))
+* **deps:** update dependency node to v20.15.0 ([#152](https://github.com/kunalnagar/jquery.peekABar/issues/152)) ([33a2d36](https://github.com/kunalnagar/jquery.peekABar/commit/33a2d368691ad5912fda4ee38a7588d8027e571a))
+* **deps:** update semantic-release monorepo ([#153](https://github.com/kunalnagar/jquery.peekABar/issues/153)) ([79965f2](https://github.com/kunalnagar/jquery.peekABar/commit/79965f21515536b8288ed192ddff159d92f199b9))
+
 ## [3.6.26](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.25...v3.6.26) (2024-06-01)
 
 
