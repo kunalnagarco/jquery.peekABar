@@ -7,7 +7,7 @@ Thanks for using this jQuery plugin to show notification bars in your web apps. 
 ## What's changing
 
 - [x] (Mar 16, 2024) Update README with a deprecation warning to give users enough time to prepare for the move
-- [ ] (June 16, 2024) Move plugin to the @kunalnagarco organization
+- [x] (June 16, 2024) Move plugin to the @kunalnagarco organization
 - [ ] (July 16, 2024) Deprecate the [npm jquery-peek-a-bar package](https://www.npmjs.com/package/jquery-peek-a-bar) and create a new package under the org scope i.e. `@kunalnagarco/jquery.peekABar`
 
 ## What's not changing
