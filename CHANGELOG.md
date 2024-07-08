@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.7.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.27...v3.7.0) (2024-07-08)
+
+### Features
+
+* Update org references after moving repo ([#154](https://github.com/kunalnagar/jquery.peekABar/issues/154)) ([cdef271](https://github.com/kunalnagar/jquery.peekABar/commit/cdef2716d13620e5d8440dd92292c1d6d95c375b))
+
 ## [3.6.27](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.26...v3.6.27) (2024-07-07)
 
 ### Chores
