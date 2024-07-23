@@ -1,13 +1,13 @@
 # @kunalnagarco/jquery-peek-a-bar
 
-[![npm version](https://img.shields.io/npm/v/jquery-peek-a-bar.svg)](https://www.npmjs.com/package/jquery-peek-a-bar)
+<!-- [![npm version](https://img.shields.io/npm/v/jquery-peek-a-bar.svg)](https://www.npmjs.com/package/jquery-peek-a-bar) -->
 
 A jQuery plugin for a notification bar with customization options.
 
 ## Installation
 
-```
-npm install jquery-peek-a-bar --save
+```bash
+npm install @kunalnagarco/jquery-peek-a-bar --save
 ```
 
 ## Options
@@ -154,7 +154,7 @@ bar.show({
 
 ## Support
 
-For any issues/queries, please open a new [Github Issue](https://github.com/kunalnagar/jquery.peekABar/issues).
+For any issues/queries, please open a new [Github Issue](https://github.com/kunalnagarco/jquery.peekABar/issues).
 
 ## Share
 

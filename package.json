@@ -42,7 +42,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kunalnagar/jquery.peekABar.git"
+    "url": "git://github.com/kunalnagarco/jquery.peekABar.git"
   },
   "publishConfig": {
     "access": "public"
