@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.1](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.0...v4.0.1) (2024-07-23)
+
+### Chores
+
+* Update docs ([#156](https://github.com/kunalnagarco/jquery.peekABar/issues/156)) ([9ddf2d4](https://github.com/kunalnagarco/jquery.peekABar/commit/9ddf2d493eb484ae0cc27f0c85e42095f56cef23))
+
 ## [4.0.0](https://github.com/kunalnagarco/jquery.peekABar/compare/v3.7.0...v4.0.0) (2024-07-23)
 
 ### ⚠ BREAKING CHANGES
