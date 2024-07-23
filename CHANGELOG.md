@@ -1,5 +1,15 @@
 # Changelog
 
+## [4.0.0](https://github.com/kunalnagarco/jquery.peekABar/compare/v3.7.0...v4.0.0) (2024-07-23)
+
+### ⚠ BREAKING CHANGES
+
+* Release new org scoped package
+
+### Features
+
+* Release new org scoped package ([#155](https://github.com/kunalnagarco/jquery.peekABar/issues/155)) ([98a7bd8](https://github.com/kunalnagarco/jquery.peekABar/commit/98a7bd88357371f99b6bb871bded3147b34c4b94))
+
 ## [3.7.0](https://github.com/kunalnagar/jquery.peekABar/compare/v3.6.27...v3.7.0) (2024-07-08)
 
 ### Features
