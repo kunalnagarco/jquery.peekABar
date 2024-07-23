@@ -1,5 +1,5 @@
 {
-  "name": "jquery-peek-a-bar",
+  "name": "@kunalnagarco/jquery-peek-a-bar",
   "version": "3.7.0",
   "description": "A jQuery plugin for a notification bar with a lot of customization options.",
   "main": "dist/js/jquery.peekabar.js",
@@ -42,7 +42,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kunalnagar/jquery.peekABar.git"
+    "url": "git://github.com/kunalnagarco/jquery.peekABar.git"
   },
   "publishConfig": {
     "access": "public"
