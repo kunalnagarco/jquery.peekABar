@@ -1,4 +1,4 @@
-# jquery.peekABar
+# @kunalnagarco/jquery-peek-a-bar
 
 [![npm version](https://img.shields.io/npm/v/jquery-peek-a-bar.svg)](https://www.npmjs.com/package/jquery-peek-a-bar)
 
