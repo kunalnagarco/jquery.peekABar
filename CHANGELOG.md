@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.2](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.1...v4.0.2) (2024-08-01)
+
+### Chores
+
+* **deps:** update dependency prettier to v3.3.3 ([e2c7586](https://github.com/kunalnagarco/jquery.peekABar/commit/e2c7586a0fba6de7a479d863114c66f2af9ae512))
+
 ## [4.0.1](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.0...v4.0.1) (2024-07-23)
 
 ### Chores
