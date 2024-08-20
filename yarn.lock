@@ -1653,10 +1653,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@10.0.6":
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.0.6.tgz#58cdec447a423f5be9a6a4c912cbc422307f695b"
-  integrity sha512-sS4psqZacGTFEN49UQGqwFNG6Jyx2/RX1BhhDGn/2WoPbhAHislohOY05/5r+JoL4gJMWycfH7tEm1eGVutYeg==
+"@semantic-release/github@10.1.7":
+  version "10.1.7"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.1.7.tgz#ff31351050859b28298a0c75b9fa3e3cff413dd4"
+  integrity sha512-QnhP4k1eqzYLz6a4kpWrUQeKJYXqHggveMykvUFbSquq07GF85BXvr/QLhpOD7bpDcmEfL8VnphRA7KT5i9lzQ==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
@@ -6017,10 +6017,10 @@ scss-tokenizer@^0.4.3:
     js-base64 "^2.4.9"
     source-map "^0.7.3"
 
-semantic-release@24.0.0:
-  version "24.0.0"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-24.0.0.tgz#779493f1426469ce0ef60cf74e50aba6e7a0af16"
-  integrity sha512-v46CRPw+9eI3ZuYGF2oAjqPqsfbnfFTwLBgQsv/lch4goD09ytwOTESMN4QIrx/wPLxUGey60/NMx+ANQtWRsA==
+semantic-release@24.1.0:
+  version "24.1.0"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-24.1.0.tgz#da799e6def44a0c3708fa1cfc2685d20e29b0f83"
+  integrity sha512-FwaE2hKDHQn9G6GA7xmqsc9WnsjaFD/ppLM5PUg56Do9oKSCf+vH6cPeb3hEBV/m06n8Sh9vbVqPjHu/1onzQw==
   dependencies:
     "@semantic-release/commit-analyzer" "^13.0.0-beta.1"
     "@semantic-release/error" "^4.0.0"
