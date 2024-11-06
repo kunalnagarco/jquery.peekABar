@@ -1276,10 +1276,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@10.1.7":
-  version "10.1.7"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.1.7.tgz#ff31351050859b28298a0c75b9fa3e3cff413dd4"
-  integrity sha512-QnhP4k1eqzYLz6a4kpWrUQeKJYXqHggveMykvUFbSquq07GF85BXvr/QLhpOD7bpDcmEfL8VnphRA7KT5i9lzQ==
+"@semantic-release/github@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.1.tgz#127579aa77ddd8586de6f4f57d0e66db3453a876"
+  integrity sha512-Z9cr0LgU/zgucbT9cksH0/pX9zmVda9hkDPcgIE0uvjMQ8w/mElDivGjx1w1pEQ+MuQJ5CBq3VCF16S6G4VH3A==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
