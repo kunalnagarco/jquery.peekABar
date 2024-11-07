@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.9](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.8...v4.0.9) (2024-11-07)
+
+### Chores
+
+* **deps:** update dependency @semantic-release/github to v11 ([#161](https://github.com/kunalnagarco/jquery.peekABar/issues/161)) ([14f515f](https://github.com/kunalnagarco/jquery.peekABar/commit/14f515f052edb367ec93709dde7859d16250083e))
+* **deps:** update dependency lightbox2 to v2.11.5 ([#159](https://github.com/kunalnagarco/jquery.peekABar/issues/159)) ([78d3ced](https://github.com/kunalnagarco/jquery.peekABar/commit/78d3ced92174cb5ee5fa504e14428ec0dd74ca35))
+* **deps:** update dependency node to v22 ([#162](https://github.com/kunalnagarco/jquery.peekABar/issues/162)) ([bfdf476](https://github.com/kunalnagarco/jquery.peekABar/commit/bfdf476d9d8d27e79567170995136505afbc42bf))
+
 ## [4.0.8](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.7...v4.0.8) (2024-11-01)
 
 ### Chores
