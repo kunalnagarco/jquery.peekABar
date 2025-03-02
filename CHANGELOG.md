@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.14](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.13...v4.0.14) (2025-03-02)
+
+### Chores
+
+* **deps:** update dependency grunt-sass to v4 ([#165](https://github.com/kunalnagarco/jquery.peekABar/issues/165)) ([95cbd91](https://github.com/kunalnagarco/jquery.peekABar/commit/95cbd91725951b834382f989b9f787a0ddd5bd9a))
+* remove node-sass ([#166](https://github.com/kunalnagarco/jquery.peekABar/issues/166)) ([d67592f](https://github.com/kunalnagarco/jquery.peekABar/commit/d67592f7c983a4aed1ff5fff695a7e0f9ffa06ca))
+
 ## [4.0.13](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.12...v4.0.13) (2025-03-02)
 
 ### Chores
