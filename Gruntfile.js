@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var sass = require('node-sass');
+  var sass = require('sass');
 
   module.exports = function (grunt) {
     require('load-grunt-tasks')(grunt);
@@ -13,8 +13,7 @@
         },
         dist: {
           files: {
-            'dist/js/jquery.peekabar.js':
-              'dist/js/jquery.peekabar.js',
+            'dist/js/jquery.peekabar.js': 'dist/js/jquery.peekabar.js',
           },
         },
       },
@@ -28,7 +27,7 @@
               rename: function (dest) {
                 return dest + 'jquery.peekabar.js';
               },
-            }
+            },
           ],
         },
       },
@@ -39,9 +38,7 @@
         },
         my_target: {
           files: {
-            'dist/js/jquery.peekabar.min.js': [
-              'dist/js/jquery.peekabar.js',
-            ],
+            'dist/js/jquery.peekabar.min.js': ['dist/js/jquery.peekabar.js'],
           },
         },
       },
