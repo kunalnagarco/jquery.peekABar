@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.15](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.14...v4.0.15) (2025-04-01)
+
+### Chores
+
+* **deps:** update babel monorepo ([206cd6e](https://github.com/kunalnagarco/jquery.peekABar/commit/206cd6e56da45742b7951d769260779c0aee862d))
+
 ## [4.0.14](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.13...v4.0.14) (2025-03-02)
 
 ### Chores
