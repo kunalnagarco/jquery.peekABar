@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.16](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.15...v4.0.16) (2025-04-06)
+
+### Chores
+
+* **deps:** update dependency prism to v1.30.0 ([#167](https://github.com/kunalnagarco/jquery.peekABar/issues/167)) ([2c1dbf2](https://github.com/kunalnagarco/jquery.peekABar/commit/2c1dbf2c7ad7ef7617e797e24460f374db540fec))
+
 ## [4.0.15](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.14...v4.0.15) (2025-04-01)
 
 ### Chores
