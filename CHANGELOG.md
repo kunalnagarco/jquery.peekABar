@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.18](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.17...v4.0.18) (2025-05-30)
+
+### Chores
+
+* **deps:** update node.js to v22.16.0 ([#168](https://github.com/kunalnagarco/jquery.peekABar/issues/168)) ([ee08420](https://github.com/kunalnagarco/jquery.peekABar/commit/ee084206146656ef4ebe274dbec7b67a9923d5ac))
+
 ## [4.0.17](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.16...v4.0.17) (2025-05-01)
 
 ### Chores
