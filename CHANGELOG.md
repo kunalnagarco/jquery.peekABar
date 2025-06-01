@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.20](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.19...v4.0.20) (2025-06-01)
+
+### Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9 ([#169](https://github.com/kunalnagarco/jquery.peekABar/issues/169)) ([0229e8e](https://github.com/kunalnagarco/jquery.peekABar/commit/0229e8e9b246141ffbb3146910410506c5ad8fa6))
+
 ## [4.0.19](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.18...v4.0.19) (2025-06-01)
 
 ### Chores
