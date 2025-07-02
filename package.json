@@ -14,8 +14,8 @@
   "author": "Kunal Nagar <knlnagar@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.26.10",
-    "@babel/preset-env": "7.26.9",
+    "@babel/core": "7.28.0",
+    "@babel/preset-env": "7.28.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "10.0.1",
