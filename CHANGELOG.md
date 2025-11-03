@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.23](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.22...v4.0.23) (2025-11-03)
+
+### Chores
+
+* **deps:** update actions/checkout action to v5 ([#172](https://github.com/kunalnagarco/jquery.peekABar/issues/172)) ([b988735](https://github.com/kunalnagarco/jquery.peekABar/commit/b988735a88f59dddd8bdbe4045b86bf19ed55daf))
+* **deps:** update node.js to v22.21.1 ([#170](https://github.com/kunalnagarco/jquery.peekABar/issues/170)) ([29df3f9](https://github.com/kunalnagarco/jquery.peekABar/commit/29df3f93e2d6e4ffe6cafbf3b9de4bf1bd60f473))
+* **deps:** update semantic-release monorepo ([#171](https://github.com/kunalnagarco/jquery.peekABar/issues/171)) ([67d61ac](https://github.com/kunalnagarco/jquery.peekABar/commit/67d61ac09a8ad870a8ec51d9a38aa6f014294d00))
+
 ## [4.0.22](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.21...v4.0.22) (2025-11-01)
 
 ### Chores
