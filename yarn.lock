@@ -3196,9 +3196,9 @@ grunt-legacy-util@~2.0.1:
     which "~2.0.2"
 
 grunt-sass@*:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/grunt-sass/-/grunt-sass-4.0.0.tgz#b42fa81c7d1904cb5a8f66efdc37037323862576"
-  integrity sha512-J9JvhVByJaIBjqPvFs/bOrRb9Wa2wVeSM5bRzjD8YiwuEi03tdIPI9OXuygq35z/eTurcO4yxsF5MU8nHdH11w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/grunt-sass/-/grunt-sass-4.0.1.tgz#a1390f74d95881e9cf28f2c4b1db153c34c03175"
+  integrity sha512-tEbIuqieBNxrLpWcnfBnTCTaRBvs+paHitpiDQjB87lhVLxc/TaT3zbpAPdCX2byf8Do9I5eHpO1YuN50BLOhQ==
 
 grunt@1.6.1:
   version "1.6.1"
