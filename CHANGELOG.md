@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.24](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.23...v4.0.24) (2026-01-04)
+
+### Chores
+
+* **deps:** update actions/cache action to v5 ([#173](https://github.com/kunalnagarco/jquery.peekABar/issues/173)) ([3933c74](https://github.com/kunalnagarco/jquery.peekABar/commit/3933c74040f15c4ece661166955a5a39fec17756))
+* **deps:** update actions/checkout action to v6 ([#174](https://github.com/kunalnagarco/jquery.peekABar/issues/174)) ([2289708](https://github.com/kunalnagarco/jquery.peekABar/commit/22897087cc12bb305b0645c0ea19f8651abcad2f))
+* **deps:** update actions/setup-node action to v6 ([#175](https://github.com/kunalnagarco/jquery.peekABar/issues/175)) ([a760259](https://github.com/kunalnagarco/jquery.peekABar/commit/a760259ab91e7b0342bea261fccd1945d8c46b23))
+* **deps:** update babel monorepo to v7.28.5 ([4a45c93](https://github.com/kunalnagarco/jquery.peekABar/commit/4a45c93aebf2528af8eea72f55e1dfd7b4d55d74))
+* **deps:** update dependency grunt-sass to v4.0.1 ([e2c76d5](https://github.com/kunalnagarco/jquery.peekABar/commit/e2c76d56894c94db94a5ba3172ff0ca133c71521))
+* **deps:** update node.js to v24 ([#176](https://github.com/kunalnagarco/jquery.peekABar/issues/176)) ([8f7945f](https://github.com/kunalnagarco/jquery.peekABar/commit/8f7945f57849b8e5381a3961e1fc8fae7d136ab6))
+
 ## [4.0.23](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.22...v4.0.23) (2025-11-03)
 
 ### Chores
