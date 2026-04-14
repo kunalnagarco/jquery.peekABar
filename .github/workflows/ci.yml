@@ -30,5 +30,9 @@ jobs:
         run: yarn install
       - name: Create build
         run: yarn build
+      - name: Verify npm token
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
+          npm whoami
       - name: Release pre-check
         run: npm pack
