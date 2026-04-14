@@ -33,8 +33,6 @@ jobs:
         run: yarn build
       - name: Authenticate with the npm registry
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
-      - name: Verify npm token
-        run: npm whoami
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
