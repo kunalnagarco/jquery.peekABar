@@ -1,5 +1,19 @@
 # Changelog
 
+## [5.0.0](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.26...v5.0.0) (2026-04-14)
+
+### ⚠ BREAKING CHANGES
+
+* v4.0.26 was incorrectly released as a patch. The
+breaking changes introduced in that release (IE11 support dropped, dist
+files changed from ES5 to ES2015+) should have triggered a major bump
+to 5.0.0. This commit corrects the release rule configuration and
+re-triggers the major version bump.
+
+### Bug Fixes
+
+* correct breaking change version bump in semantic-release config ([#184](https://github.com/kunalnagarco/jquery.peekABar/issues/184)) ([d6b17eb](https://github.com/kunalnagarco/jquery.peekABar/commit/d6b17eb9616f60dab13e2d4a47d0bdbb6ef85277))
+
 ## [4.0.26](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.25...v4.0.26) (2026-04-14)
 
 ### ⚠ BREAKING CHANGES
