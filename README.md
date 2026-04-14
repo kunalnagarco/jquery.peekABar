@@ -110,6 +110,10 @@ Show the bar.
 
 Hide the bar.
 
+### bar.destroy()
+
+Remove the bar from the DOM and cancel any pending autohide timer.
+
 ## Example
 
 Please check out the complete example below:
@@ -129,7 +133,7 @@ var bar = $.peekABar({
     opacity: '0.8',
     cssClass: 'custom-class',
     position: 'bottom',
-    closeOnClick: true
+    closeOnClick: true,
     onShow: function() {
         console.log('called after bar is shown');
     },
@@ -151,6 +155,10 @@ bar.show({
     html: 'Overrides all, puny human.'
 });
 ```
+
+## Browser Support
+
+All modern browsers are supported. IE11 and below are **not** supported as of v5.0.0.
 
 ## Support
 
