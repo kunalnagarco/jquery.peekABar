@@ -1,5 +1,27 @@
 # Changelog
 
+## [4.0.26](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.25...v4.0.26) (2026-04-14)
+
+### ⚠ BREAKING CHANGES
+
+* dist files are now ES2015+ output instead of ES5.
+Babel transpilation has been removed. IE11 is no longer supported.
+
+* docs: document browser support drop and add destroy() method
+
+### Bug Fixes
+
+* resolve bugs and improve plugin quality ([#179](https://github.com/kunalnagarco/jquery.peekABar/issues/179)) ([6131e8c](https://github.com/kunalnagarco/jquery.peekABar/commit/6131e8c92047da379f9d12820b68b69182fc9d86))
+
+### Chores
+
+* add CLAUDE.md with project rules ([#182](https://github.com/kunalnagarco/jquery.peekABar/issues/182)) ([2e0963d](https://github.com/kunalnagarco/jquery.peekABar/commit/2e0963d74cba8e0f16c7f1aa4910d9a52cbfcc0b))
+* **deps:** update babel monorepo ([fc8fc4e](https://github.com/kunalnagarco/jquery.peekABar/commit/fc8fc4e59435bdb055a44ad8b6def20de33c8885))
+* **deps:** update node.js to v24.14.1 ([#177](https://github.com/kunalnagarco/jquery.peekABar/issues/177)) ([5a2b155](https://github.com/kunalnagarco/jquery.peekABar/commit/5a2b155d25dd0b1c026272a4bdacc10b1bd2effb))
+* **deps:** update semantic-release monorepo ([#178](https://github.com/kunalnagarco/jquery.peekABar/issues/178)) ([77e4c73](https://github.com/kunalnagarco/jquery.peekABar/commit/77e4c737c06c30884b698481100905bdb8c202a4))
+* replace grunt tooling with esbuild and drop IE11 support ([#181](https://github.com/kunalnagarco/jquery.peekABar/issues/181)) ([19a5686](https://github.com/kunalnagarco/jquery.peekABar/commit/19a56866018ca4d57f89757b71dd5f7ff6281270))
+* update license header to standard format ([#180](https://github.com/kunalnagarco/jquery.peekABar/issues/180)) ([829ecda](https://github.com/kunalnagarco/jquery.peekABar/commit/829ecda6af7d0498a347ad73e56e701de817389f))
+
 ## [4.0.25](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.24...v4.0.25) (2026-03-01)
 
 ### Chores
