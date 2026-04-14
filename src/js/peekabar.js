@@ -1,8 +1,10 @@
-/**
- * @license
- * @kunalnagarco/jquery-peek-a-bar <https://kunalnagarco.github.io/jquery.peekABar>
- * Copyright 2019 Kunal Nagar
- * Available under MIT license
+/*!
+ * jQuery peekABar
+ * https://kunalnagarco.github.io/jquery.peekABar
+ *
+ * Copyright (c) 2019-2026 Kunal Nagar
+ * Released under the MIT License
+ * https://opensource.org/licenses/MIT
  */
 (function ($) {
   'use strict';
