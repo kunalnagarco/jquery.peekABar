@@ -7,15 +7,17 @@
     "dist"
   ],
   "scripts": {
-    "prebuild": "rm -rf build",
-    "build": "grunt build",
+    "prebuild": "rm -rf dist",
+    "build": "npm run build:js && npm run build:css",
+    "build:js": "esbuild src/js/peekabar.js --platform=browser --outfile=dist/js/jquery.peekabar.js && esbuild src/js/peekabar.js --platform=browser --minify --sourcemap --outfile=dist/js/jquery.peekabar.min.js",
+    "build:css": "sass src/scss/peekabar.scss dist/css/jquery.peekabar.css && sass src/scss/peekabar.scss dist/css/jquery.peekabar.min.css --style=compressed --source-map",
+    "watch:js": "esbuild src/js/peekabar.js --platform=browser --minify --sourcemap --outfile=dist/js/jquery.peekabar.min.js --watch",
+    "watch:css": "sass --watch src/scss/peekabar.scss dist/css/jquery.peekabar.min.css --style=compressed --source-map",
     "release": "semantic-release"
   },
   "author": "Kunal Nagar <knlnagar@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.29.0",
-    "@babel/preset-env": "7.29.2",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "10.0.1",
@@ -23,18 +25,10 @@
     "@semantic-release/npm": "13.1.5",
     "@semantic-release/release-notes-generator": "14.1.0",
     "conventional-changelog-conventionalcommits": "9.1.0",
-    "grunt": "1.6.1",
-    "grunt-babel": "8.0.0",
-    "grunt-contrib-copy": "1.0.0",
-    "grunt-contrib-cssmin": "5.0.0",
-    "grunt-contrib-uglify": "5.2.2",
-    "grunt-contrib-watch": "1.1.0",
-    "grunt-sass": "*",
-    "load-grunt-tasks": "5.1.0",
-    "sass": "1.85.1",
+    "esbuild": "0.25.2",
     "prettier": "3.8.1",
-    "semantic-release": "25.0.3",
-    "time-grunt": "2.0.0"
+    "sass": "1.85.1",
+    "semantic-release": "25.0.3"
   },
   "keywords": [
     "jquery-plugin",
