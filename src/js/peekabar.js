@@ -7,13 +7,14 @@
 (function ($) {
   'use strict';
 
+  let _instanceCount = 0;
+
   $.peekABar = function (options) {
-    let that = this,
-      rand = parseInt(Math.random() * 100000000, 0);
+    let that = this;
 
     this.bar = {};
-
     this.settings = {};
+    this._autohideTimer = null;
 
     let defaults = {
       html: 'Your Message Here',
@@ -35,7 +36,7 @@
     };
 
     let init = () => {
-      that.settings = $.extend({}, defaults, options);
+      that.settings = $.extend(true, {}, defaults, options);
       _create();
       _applyCustomSettings();
     };
@@ -46,45 +47,63 @@
           this.bar.html(args.html);
         }
       }
+
+      const duration = that.settings.animation.duration;
+      const onShowDone = () => that.settings.onShow.call(that, args);
+
       switch (this.settings.animation.type) {
         case 'slide':
-          this.bar.slideDown(that.settings.animation.duration);
+          this.bar.slideDown(duration, onShowDone);
           break;
         case 'fade':
-          this.bar.fadeIn(that.settings.animation.duration);
+          this.bar
+            .css('opacity', 0)
+            .show()
+            .animate({ opacity: that.settings.opacity }, duration, onShowDone);
           break;
       }
+
       if (this.settings.autohide) {
-        setTimeout(function () {
+        clearTimeout(this._autohideTimer);
+        this._autohideTimer = setTimeout(() => {
           that.hide();
         }, this.settings.delay);
       }
-      this.settings.onShow.call(this, args);
     };
 
     this.hide = () => {
+      const duration = that.settings.animation.duration;
+      const onHideDone = () => that.settings.onHide.call(that);
+
       switch (this.settings.animation.type) {
         case 'slide':
-          this.bar.slideUp(that.settings.animation.duration);
+          this.bar.slideUp(duration, onHideDone);
           break;
         case 'fade':
-          this.bar.fadeOut(that.settings.animation.duration);
+          this.bar.animate({ opacity: 0 }, duration, () => {
+            that.bar.hide();
+            onHideDone();
+          });
           break;
       }
-      this.settings.onHide.call(this);
+    };
+
+    this.destroy = () => {
+      clearTimeout(that._autohideTimer);
+      that.bar.remove();
     };
 
     let _create = () => {
+      const id = ++_instanceCount;
       that.bar = $('<div></div>')
         .addClass('peek-a-bar')
-        .attr('id', '__peek_a_bar_' + rand);
+        .attr('id', '__peek_a_bar_' + id);
       $('html').append(that.bar);
       that.bar.hide();
     };
 
     let _applyCustomSettings = () => {
       _applyHTML();
-      _applyAutohide();
       _applyPadding();
       _applyBackgroundColor();
       _applyOpacity();
@@ -95,14 +114,6 @@
 
     let _applyHTML = () => {
       that.bar.html(that.settings.html);
-    };
-
-    let _applyAutohide = () => {
-      if (that.settings.autohide) {
-        setTimeout(() => {
-          that.hide();
-        }, that.settings.delay);
-      }
     };
 
     let _applyPadding = () => {
@@ -125,20 +136,18 @@
 
     let _applyPosition = () => {
       switch (that.settings.position) {
-        case 'top':
-          that.bar.css('top', 0);
-          break;
         case 'bottom':
-          that.bar.css('bottom', 0);
+          that.bar.css({ bottom: 0, top: '' });
           break;
+        case 'top':
         default:
-          that.bar.css('top', 0);
+          that.bar.css({ top: 0, bottom: '' });
       }
     };
 
     let _applyCloseOnClick = () => {
       if (that.settings.closeOnClick) {
-        that.bar.click(() => {
+        that.bar.css('cursor', 'pointer').click(() => {
           that.hide();
         });
       }
