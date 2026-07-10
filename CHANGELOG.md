@@ -1,5 +1,11 @@
 # Changelog
 
+## [5.0.1](https://github.com/kunalnagarco/jquery.peekABar/compare/v5.0.0...v5.0.1) (2026-07-10)
+
+### Chores
+
+* **readme:** enable npm, build, and license badges ([#187](https://github.com/kunalnagarco/jquery.peekABar/issues/187)) ([2e833d3](https://github.com/kunalnagarco/jquery.peekABar/commit/2e833d30f97a2003841796850f9a317d7318e312))
+
 ## [5.0.0](https://github.com/kunalnagarco/jquery.peekABar/compare/v4.0.26...v5.0.0) (2026-04-14)
 
 ### ⚠ BREAKING CHANGES
