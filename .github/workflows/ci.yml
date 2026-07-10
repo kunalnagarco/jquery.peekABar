@@ -34,9 +34,8 @@ jobs:
         run: yarn install --immutable
       - name: Create build
         run: yarn build
-      - name: Verify npm token
-        run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
-          npm whoami
+      # Token-free packaging check. npm auth is no longer verified here:
+      # publishing uses OIDC trusted publishing in the release workflow,
+      # so there is no long-lived NPM_TOKEN to check.
       - name: Release pre-check
         run: npm pack
