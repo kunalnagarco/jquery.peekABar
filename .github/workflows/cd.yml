@@ -1,3 +1,12 @@
+# Release workflow.
+#
+# Triggers: push to `master` (excluding version tags) and manual dispatch.
+# Publishes the package to npm and creates the GitHub release via
+# semantic-release.
+#
+# Auth: npm publishing uses OIDC "trusted publishing" (no NPM_TOKEN secret).
+# A trusted publisher for this repo + workflow must be configured on
+# npmjs.com. The GITHUB_TOKEN is auto-provided; its scopes are pinned below.
 name: Release
 
 on:
@@ -11,6 +20,17 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    # Least-privilege scopes for the release job:
+    #   contents: write        -> semantic-release/git pushes the release
+    #                             commit + tag; semantic-release/github
+    #                             creates the GitHub release
+    #   issues / pull-requests -> semantic-release/github release comments
+    #   id-token: write        -> OIDC exchange for npm trusted publishing
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
@@ -35,10 +55,9 @@ jobs:
         run: yarn install --immutable
       - name: Create build
         run: yarn build
-      - name: Authenticate with the npm registry
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
+      # npm auth is handled at publish time via OIDC (see id-token permission
+      # above) — no NPM_TOKEN and no ~/.npmrc auth line needed.
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: yarn release
