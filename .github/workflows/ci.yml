@@ -15,7 +15,11 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
-          cache: 'yarn'
+      # Corepack resolves the Yarn version pinned in package.json's
+      # "packageManager" field. Enable it after setup-node so the yarn
+      # shim binds to the active Node.
+      - name: Enable Corepack
+        run: corepack enable
       - name: Get node version
         id: node
         run: echo "::set-output name=version::$(node -v)"
@@ -27,7 +31,7 @@ jobs:
             **/node_modules
           key: ${{ runner.os }}-node_modules-${{ hashFiles('**/yarn.lock') }}-${{ steps.node.outputs.version }}
       - name: Install dependencies
-        run: yarn install
+        run: yarn install --immutable
       - name: Create build
         run: yarn build
       - name: Verify npm token

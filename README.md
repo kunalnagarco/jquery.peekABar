@@ -156,6 +156,20 @@ bar.show({
 });
 ```
 
+## Development
+
+This project uses [Yarn 4](https://yarnpkg.com/), pinned via the `packageManager`
+field and managed by [Corepack](https://nodejs.org/api/corepack.html) (bundled
+with Node.js ≥ 16.9). Enable Corepack once, then install and build:
+
+```bash
+corepack enable        # activates the pinned Yarn version automatically
+yarn install --immutable
+yarn build
+```
+
+The Node version is pinned in `.nvmrc`.
+
 ## Browser Support
 
 All modern browsers are supported. IE11 and below are **not** supported as of v5.0.0.

@@ -5,3 +5,11 @@ dist
 
 .idea
 .DS_Store
+
+# Yarn Berry (node-modules linker + Corepack-managed version)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
