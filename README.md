@@ -170,6 +170,20 @@ yarn build
 
 The Node version is pinned in `.nvmrc`.
 
+### Releasing
+
+Releases are automated by [semantic-release](https://semantic-release.gitbook.io/)
+on every push to `master` (see `.github/workflows/cd.yml`). Version bumps,
+changelog entries, the GitHub release, and the npm publish all happen in CI —
+never publish from a local machine.
+
+npm publishing uses **OIDC [trusted publishing](https://docs.npmjs.com/trusted-publishers)**
+rather than a long-lived `NPM_TOKEN`, so no npm secret is stored in the repo and
+every release is published with [provenance](https://docs.npmjs.com/generating-provenance-statements)
+automatically. This requires a one-time setup on npmjs.com: under the package's
+**Settings → Trusted Publisher**, add a GitHub Actions publisher for the
+`kunalnagarco/jquery.peekABar` repository and the `cd.yml` workflow.
+
 ## Browser Support
 
 All modern browsers are supported. IE11 and below are **not** supported as of v5.0.0.
