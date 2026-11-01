@@ -1,5 +1,11 @@
 # Changelog
 
+## [5.0.3](https://github.com/kunalnagarco/jquery.peekABar/compare/v5.0.2...v5.0.3) (2026-11-01)
+
+### Chores
+
+* **deps:** update semantic-release monorepo ([03e0e9e](https://github.com/kunalnagarco/jquery.peekABar/commit/03e0e9e1ec893d1cfbd627f2c32dc8383a2a221a))
+
 ## [5.0.2](https://github.com/kunalnagarco/jquery.peekABar/compare/v5.0.1...v5.0.2) (2026-10-01)
 
 ### Chores
